@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="../src/comunicacion.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="2" column="1" str="/** Descriptive File Namexx  @Companyx    Company Namexx  @File Namex    filename.hxx  @Summaryx    Brief description of the file.xx  @Descriptionx    Describe the purpose of this file.x */"/>
+    <tok fileIndex="0" linenr="16" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="18" column="1" str="#"/>
+    <tok fileIndex="0" linenr="18" column="2" str="ifndef"/>
+    <tok fileIndex="0" linenr="18" column="9" str="_EXAMPLE_FILE_NAME_H"/>
+    <tok fileIndex="0" linenr="18" column="33" str="/* Guard against multiple inclusion */"/>
+    <tok fileIndex="0" linenr="19" column="1" str="#"/>
+    <tok fileIndex="0" linenr="19" column="2" str="define"/>
+    <tok fileIndex="0" linenr="19" column="9" str="_EXAMPLE_FILE_NAME_H"/>
+    <tok fileIndex="0" linenr="22" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="23" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="24" column="1" str="/* Section: Included Files                                                    */"/>
+    <tok fileIndex="0" linenr="25" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="26" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="28" column="1" str="/* This section lists the other files that are included in this file.x */"/>
+    <tok fileIndex="0" linenr="31" column="1" str="/* TODO:  Include other files here if needed. */"/>
+    <tok fileIndex="0" linenr="32" column="1" str="#"/>
+    <tok fileIndex="0" linenr="32" column="2" str="include"/>
+    <tok fileIndex="0" linenr="32" column="10" str="&lt;stdbool.h&gt;"/>
+    <tok fileIndex="0" linenr="33" column="1" str="#"/>
+    <tok fileIndex="0" linenr="33" column="2" str="include"/>
+    <tok fileIndex="0" linenr="33" column="10" str="&lt;GenericTypeDefs.h&gt;"/>
+    <tok fileIndex="0" linenr="36" column="1" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="37" column="1" str="#"/>
+    <tok fileIndex="0" linenr="37" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="37" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="38" column="1" str="extern"/>
+    <tok fileIndex="0" linenr="38" column="8" str="&quot;C&quot;"/>
+    <tok fileIndex="0" linenr="38" column="12" str="{"/>
+    <tok fileIndex="0" linenr="39" column="1" str="#"/>
+    <tok fileIndex="0" linenr="39" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="42" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="43" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="44" column="5" str="/* Section: Constants                                                         */"/>
+    <tok fileIndex="0" linenr="45" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="46" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="48" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="53" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="54" column="5" str="/** Descriptive Constant Namexx      @Summaryx        Brief one-line summary of the constant.x    x      @Descriptionx        Full description, explaining the purpose and usage of the constant.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.x    x      @Remarksx        Any additional remarksx     */"/>
+    <tok fileIndex="0" linenr="70" column="1" str="#"/>
+    <tok fileIndex="0" linenr="70" column="2" str="define"/>
+    <tok fileIndex="0" linenr="70" column="9" str="EXAMPLE_CONSTANT"/>
+    <tok fileIndex="0" linenr="70" column="26" str="0"/>
+    <tok fileIndex="0" linenr="73" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="74" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="75" column="5" str="// Section: Data Types"/>
+    <tok fileIndex="0" linenr="76" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="77" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="79" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="84" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="86" column="5" str="/** Descriptive Data Type Namexx      @Summaryx        Brief one-line summary of the data type.x    x      @Descriptionx        Full description, explaining the purpose and usage of the data type.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Remarksx        Any additional remarksx        &lt;p&gt;x        Describe enumeration elements and structure and union members above each x        element or member.x     */"/>
+    <tok fileIndex="0" linenr="105" column="5" str="typedef"/>
+    <tok fileIndex="0" linenr="105" column="13" str="struct"/>
+    <tok fileIndex="0" linenr="105" column="20" str="_example_struct_t"/>
+    <tok fileIndex="0" linenr="105" column="38" str="{"/>
+    <tok fileIndex="0" linenr="106" column="9" str="/* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="107" column="9" str="int"/>
+    <tok fileIndex="0" linenr="107" column="13" str="some_number"/>
+    <tok fileIndex="0" linenr="107" column="24" str=";"/>
+    <tok fileIndex="0" linenr="109" column="9" str="/* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="110" column="9" str="bool"/>
+    <tok fileIndex="0" linenr="110" column="14" str="some_flag"/>
+    <tok fileIndex="0" linenr="110" column="23" str=";"/>
+    <tok fileIndex="0" linenr="112" column="5" str="}"/>
+    <tok fileIndex="0" linenr="112" column="7" str="example_struct_t"/>
+    <tok fileIndex="0" linenr="112" column="23" str=";"/>
+    <tok fileIndex="0" linenr="115" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="116" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="117" column="5" str="// Section: Interface Functions"/>
+    <tok fileIndex="0" linenr="118" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="119" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="121" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="125" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="126" column="5" str="/**x      @Functionx        int ExampleFunctionName ( int param1, int param2 ) xx      @Summaryx        Brief one-line description of the function.xx      @Descriptionx        Full description, explaining the purpose and usage of the function.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="169" column="1" str="//    int ExampleFunction(int param1, int param2);"/>
+    <tok fileIndex="0" linenr="171" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="172" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="173" column="5" str="// Section: Interface Functions"/>
+    <tok fileIndex="0" linenr="174" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="175" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="177" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="181" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="182" column="5" str="/**x      @Functionx        int ExampleFunctionName ( int param1, int param2 ) xx      @Summaryx        Brief one-line description of the function.xx      @Descriptionx        Full description, explaining the purpose and usage of the function.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="225" column="1" str="//    int ExampleFunction(int param1, int param2);"/>
+    <tok fileIndex="0" linenr="226" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="227" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="228" column="5" str="// Protocolo de comunicacion"/>
+    <tok fileIndex="0" linenr="229" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="230" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="232" column="5" str="/*  Establecer el handshaking entre dispositivo y monitorx     */"/>
+    <tok fileIndex="0" linenr="235" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="236" column="5" str="/**x      @Functionx     void decode(unsigned int bufferRx)x     * int ExampleFunctionName ( int param1, int param2 ) xx      @Summaryx        Brief one-line description of the function.xx      @Descriptionx        Full description, explaining the purpose and usage of the function.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="280" column="1" str="//    int ExampleFunction(int param1, int param2);"/>
+    <tok fileIndex="0" linenr="282" column="5" str="void"/>
+    <tok fileIndex="0" linenr="282" column="10" str="decoder"/>
+    <tok fileIndex="0" linenr="282" column="17" str="("/>
+    <tok fileIndex="0" linenr="282" column="18" str="void"/>
+    <tok fileIndex="0" linenr="282" column="22" str=")"/>
+    <tok fileIndex="0" linenr="282" column="23" str=";"/>
+    <tok fileIndex="0" linenr="283" column="5" str="void"/>
+    <tok fileIndex="0" linenr="283" column="10" str="encoder"/>
+    <tok fileIndex="0" linenr="283" column="17" str="("/>
+    <tok fileIndex="0" linenr="283" column="18" str="int"/>
+    <tok fileIndex="0" linenr="283" column="22" str="ch"/>
+    <tok fileIndex="0" linenr="283" column="24" str=","/>
+    <tok fileIndex="0" linenr="283" column="26" str="int"/>
+    <tok fileIndex="0" linenr="283" column="30" str="id"/>
+    <tok fileIndex="0" linenr="283" column="32" str=","/>
+    <tok fileIndex="0" linenr="283" column="34" str="int"/>
+    <tok fileIndex="0" linenr="283" column="38" str="dato"/>
+    <tok fileIndex="0" linenr="283" column="42" str=")"/>
+    <tok fileIndex="0" linenr="283" column="43" str=";"/>
+    <tok fileIndex="0" linenr="284" column="5" str="UINT16"/>
+    <tok fileIndex="0" linenr="284" column="12" str="checksumGenerator"/>
+    <tok fileIndex="0" linenr="284" column="29" str="("/>
+    <tok fileIndex="0" linenr="284" column="30" str="UINT16"/>
+    <tok fileIndex="0" linenr="284" column="37" str="id"/>
+    <tok fileIndex="0" linenr="284" column="39" str=","/>
+    <tok fileIndex="0" linenr="284" column="41" str="UINT16"/>
+    <tok fileIndex="0" linenr="284" column="48" str="datoH"/>
+    <tok fileIndex="0" linenr="284" column="53" str=","/>
+    <tok fileIndex="0" linenr="284" column="55" str="UINT16"/>
+    <tok fileIndex="0" linenr="284" column="62" str="datoL"/>
+    <tok fileIndex="0" linenr="284" column="67" str=")"/>
+    <tok fileIndex="0" linenr="284" column="68" str=";"/>
+    <tok fileIndex="0" linenr="285" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="285" column="10" str="checksumValidator"/>
+    <tok fileIndex="0" linenr="285" column="27" str="("/>
+    <tok fileIndex="0" linenr="285" column="28" str="UINT16"/>
+    <tok fileIndex="0" linenr="285" column="35" str="id"/>
+    <tok fileIndex="0" linenr="285" column="37" str=","/>
+    <tok fileIndex="0" linenr="285" column="39" str="UINT16"/>
+    <tok fileIndex="0" linenr="285" column="46" str="datoH"/>
+    <tok fileIndex="0" linenr="285" column="51" str=","/>
+    <tok fileIndex="0" linenr="285" column="53" str="UINT16"/>
+    <tok fileIndex="0" linenr="285" column="60" str="datoL"/>
+    <tok fileIndex="0" linenr="285" column="65" str=","/>
+    <tok fileIndex="0" linenr="285" column="67" str="UINT16"/>
+    <tok fileIndex="0" linenr="285" column="74" str="checksum"/>
+    <tok fileIndex="0" linenr="285" column="82" str=")"/>
+    <tok fileIndex="0" linenr="285" column="83" str=";"/>
+    <tok fileIndex="0" linenr="286" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="286" column="10" str="UART5_Write_Mio"/>
+    <tok fileIndex="0" linenr="286" column="25" str="("/>
+    <tok fileIndex="0" linenr="286" column="26" str="void"/>
+    <tok fileIndex="0" linenr="286" column="30" str="*"/>
+    <tok fileIndex="0" linenr="286" column="32" str="buffer"/>
+    <tok fileIndex="0" linenr="286" column="38" str=","/>
+    <tok fileIndex="0" linenr="286" column="40" str="const"/>
+    <tok fileIndex="0" linenr="286" column="46" str="size_t"/>
+    <tok fileIndex="0" linenr="286" column="53" str="size"/>
+    <tok fileIndex="0" linenr="286" column="57" str=")"/>
+    <tok fileIndex="0" linenr="286" column="58" str=";"/>
+    <tok fileIndex="0" linenr="287" column="5" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="288" column="1" str="#"/>
+    <tok fileIndex="0" linenr="288" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="288" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="289" column="1" str="}"/>
+    <tok fileIndex="0" linenr="290" column="1" str="#"/>
+    <tok fileIndex="0" linenr="290" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="292" column="1" str="#"/>
+    <tok fileIndex="0" linenr="292" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="292" column="8" str="/* _EXAMPLE_FILE_NAME_H */"/>
+    <tok fileIndex="0" linenr="294" column="1" str="/* ***************************************************************************** End of File */"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="../src/comunicacion.h" linenr="18" str="#ifndef _EXAMPLE_FILE_NAME_H"/>
+    <directive file="../src/comunicacion.h" linenr="19" str="#define _EXAMPLE_FILE_NAME_H"/>
+    <directive file="../src/comunicacion.h" linenr="32" str="#include &lt;stdbool.h&gt;"/>
+    <directive file="../src/comunicacion.h" linenr="33" str="#include &lt;GenericTypeDefs.h&gt;"/>
+    <directive file="../src/comunicacion.h" linenr="37" str="#ifdef __cplusplus"/>
+    <directive file="../src/comunicacion.h" linenr="39" str="#endif"/>
+    <directive file="../src/comunicacion.h" linenr="70" str="#define EXAMPLE_CONSTANT 0"/>
+    <directive file="../src/comunicacion.h" linenr="288" str="#ifdef __cplusplus"/>
+    <directive file="../src/comunicacion.h" linenr="290" str="#endif"/>
+    <directive file="../src/comunicacion.h" linenr="292" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fbc30f22740" file="../src/comunicacion.h" linenr="105" column="13" str="struct" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f228e0" file="../src/comunicacion.h" linenr="105" column="20" str="_example_struct_t" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f22930" file="../src/comunicacion.h" linenr="105" column="38" str="{" scope="0x7fbc30f23300" link="0x7fbc30f231f0"/>
+    <token id="0x7fbc30f22cd0" file="../src/comunicacion.h" linenr="107" column="9" str="int" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f22da0" file="../src/comunicacion.h" linenr="107" column="13" str="some_number" scope="0x7fbc30f23300" type="name" varId="1"/>
+    <token id="0x7fbc30f22e70" file="../src/comunicacion.h" linenr="107" column="24" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f22f80" file="../src/comunicacion.h" linenr="110" column="9" str="bool" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f23050" file="../src/comunicacion.h" linenr="110" column="14" str="some_flag" scope="0x7fbc30f23300" type="name" varId="2"/>
+    <token id="0x7fbc30f23120" file="../src/comunicacion.h" linenr="110" column="23" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f231f0" file="../src/comunicacion.h" linenr="112" column="5" str="}" scope="0x7fbc30f23300" link="0x7fbc30f22930"/>
+    <token id="0x7fbc30f21d80" file="../src/comunicacion.h" linenr="112" column="0" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f23460" file="../src/comunicacion.h" linenr="282" column="5" str="void" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f23530" file="../src/comunicacion.h" linenr="282" column="10" str="decoder" scope="0x7fbc30f23300" type="name" function="0x7fbc30f21e60" astParent="0x7fbc30f23600"/>
+    <token id="0x7fbc30f23600" file="../src/comunicacion.h" linenr="282" column="17" str="(" scope="0x7fbc30f23300" link="0x7fbc30f237a0" astOperand1="0x7fbc30f23530" valueType-type="void"/>
+    <token id="0x7fbc30f237a0" file="../src/comunicacion.h" linenr="282" column="22" str=")" scope="0x7fbc30f23300" link="0x7fbc30f23600"/>
+    <token id="0x7fbc30f23870" file="../src/comunicacion.h" linenr="282" column="23" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f23940" file="../src/comunicacion.h" linenr="283" column="5" str="void" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f23a10" file="../src/comunicacion.h" linenr="283" column="10" str="encoder" scope="0x7fbc30f23300" type="name" function="0x7fbc30f21f00" astParent="0x7fbc30f23ae0"/>
+    <token id="0x7fbc30f23ae0" file="../src/comunicacion.h" linenr="283" column="17" str="(" scope="0x7fbc30f23300" link="0x7fbc30f24230" astOperand1="0x7fbc30f23a10" astOperand2="0x7fbc30f23fc0" valueType-type="void"/>
+    <token id="0x7fbc30f23bb0" file="../src/comunicacion.h" linenr="283" column="18" str="int" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f23c80" file="../src/comunicacion.h" linenr="283" column="22" str="ch" scope="0x7fbc30f23300" type="name" varId="3" variable="0x7fbc30f22280" astParent="0x7fbc30f23d50" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f23d50" file="../src/comunicacion.h" linenr="283" column="24" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f23fc0" astOperand1="0x7fbc30f23c80" astOperand2="0x7fbc30f23ef0"/>
+    <token id="0x7fbc30f23e20" file="../src/comunicacion.h" linenr="283" column="26" str="int" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f23ef0" file="../src/comunicacion.h" linenr="283" column="30" str="id" scope="0x7fbc30f23300" type="name" varId="4" variable="0x7fbc30f22350" astParent="0x7fbc30f23d50" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f23fc0" file="../src/comunicacion.h" linenr="283" column="32" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f23ae0" astOperand1="0x7fbc30f23d50" astOperand2="0x7fbc30f24160"/>
+    <token id="0x7fbc30f24090" file="../src/comunicacion.h" linenr="283" column="34" str="int" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f24160" file="../src/comunicacion.h" linenr="283" column="38" str="dato" scope="0x7fbc30f23300" type="name" varId="5" variable="0x7fbc30f22420" astParent="0x7fbc30f23fc0" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f24230" file="../src/comunicacion.h" linenr="283" column="42" str=")" scope="0x7fbc30f23300" link="0x7fbc30f23ae0"/>
+    <token id="0x7fbc30f24300" file="../src/comunicacion.h" linenr="283" column="43" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f243d0" file="../src/comunicacion.h" linenr="284" column="5" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f244a0" file="../src/comunicacion.h" linenr="284" column="12" str="checksumGenerator" scope="0x7fbc30f23300" type="name" function="0x7fbc30f21fe0" astParent="0x7fbc30f24570"/>
+    <token id="0x7fbc30f24570" file="../src/comunicacion.h" linenr="284" column="29" str="(" scope="0x7fbc30f23300" link="0x7fbc30f24cc0" astOperand1="0x7fbc30f244a0" astOperand2="0x7fbc30f24a50"/>
+    <token id="0x7fbc30f24640" file="../src/comunicacion.h" linenr="284" column="30" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f24710" file="../src/comunicacion.h" linenr="284" column="37" str="id" scope="0x7fbc30f23300" type="name" varId="6" variable="0x7fbc30f224f0" astParent="0x7fbc30f247e0"/>
+    <token id="0x7fbc30f247e0" file="../src/comunicacion.h" linenr="284" column="39" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f24a50" astOperand1="0x7fbc30f24710" astOperand2="0x7fbc30f24980"/>
+    <token id="0x7fbc30f248b0" file="../src/comunicacion.h" linenr="284" column="41" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f24980" file="../src/comunicacion.h" linenr="284" column="48" str="datoH" scope="0x7fbc30f23300" type="name" varId="7" variable="0x7fbc30f225c0" astParent="0x7fbc30f247e0"/>
+    <token id="0x7fbc30f24a50" file="../src/comunicacion.h" linenr="284" column="53" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f24570" astOperand1="0x7fbc30f247e0" astOperand2="0x7fbc30f24bf0"/>
+    <token id="0x7fbc30f24b20" file="../src/comunicacion.h" linenr="284" column="55" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f24bf0" file="../src/comunicacion.h" linenr="284" column="62" str="datoL" scope="0x7fbc30f23300" type="name" varId="8" variable="0x7fbc30f22690" astParent="0x7fbc30f24a50"/>
+    <token id="0x7fbc30f24cc0" file="../src/comunicacion.h" linenr="284" column="67" str=")" scope="0x7fbc30f23300" link="0x7fbc30f24570"/>
+    <token id="0x7fbc30f24d90" file="../src/comunicacion.h" linenr="284" column="68" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f24e60" file="../src/comunicacion.h" linenr="285" column="5" str="bool" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f24f30" file="../src/comunicacion.h" linenr="285" column="10" str="checksumValidator" scope="0x7fbc30f23300" type="name" function="0x7fbc30f220c0" astParent="0x7fbc30f25000"/>
+    <token id="0x7fbc30f25000" file="../src/comunicacion.h" linenr="285" column="27" str="(" scope="0x7fbc30f23300" link="0x7fbc30f259c0" astOperand1="0x7fbc30f24f30" astOperand2="0x7fbc30f25750" valueType-type="bool"/>
+    <token id="0x7fbc30f250d0" file="../src/comunicacion.h" linenr="285" column="28" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f251a0" file="../src/comunicacion.h" linenr="285" column="35" str="id" scope="0x7fbc30f23300" type="name" varId="9" variable="0x7fbc30f265b0" astParent="0x7fbc30f25270"/>
+    <token id="0x7fbc30f25270" file="../src/comunicacion.h" linenr="285" column="37" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f254e0" astOperand1="0x7fbc30f251a0" astOperand2="0x7fbc30f25410"/>
+    <token id="0x7fbc30f25340" file="../src/comunicacion.h" linenr="285" column="39" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f25410" file="../src/comunicacion.h" linenr="285" column="46" str="datoH" scope="0x7fbc30f23300" type="name" varId="10" variable="0x7fbc30f26680" astParent="0x7fbc30f25270"/>
+    <token id="0x7fbc30f254e0" file="../src/comunicacion.h" linenr="285" column="51" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f25750" astOperand1="0x7fbc30f25270" astOperand2="0x7fbc30f25680"/>
+    <token id="0x7fbc30f255b0" file="../src/comunicacion.h" linenr="285" column="53" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f25680" file="../src/comunicacion.h" linenr="285" column="60" str="datoL" scope="0x7fbc30f23300" type="name" varId="11" variable="0x7fbc30f26750" astParent="0x7fbc30f254e0"/>
+    <token id="0x7fbc30f25750" file="../src/comunicacion.h" linenr="285" column="65" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f25000" astOperand1="0x7fbc30f254e0" astOperand2="0x7fbc30f258f0"/>
+    <token id="0x7fbc30f25820" file="../src/comunicacion.h" linenr="285" column="67" str="UINT16" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f258f0" file="../src/comunicacion.h" linenr="285" column="74" str="checksum" scope="0x7fbc30f23300" type="name" varId="12" variable="0x7fbc30f26820" astParent="0x7fbc30f25750"/>
+    <token id="0x7fbc30f259c0" file="../src/comunicacion.h" linenr="285" column="82" str=")" scope="0x7fbc30f23300" link="0x7fbc30f25000"/>
+    <token id="0x7fbc30f25a90" file="../src/comunicacion.h" linenr="285" column="83" str=";" scope="0x7fbc30f23300"/>
+    <token id="0x7fbc30f25b60" file="../src/comunicacion.h" linenr="286" column="5" str="bool" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f25c30" file="../src/comunicacion.h" linenr="286" column="10" str="UART5_Write_Mio" scope="0x7fbc30f23300" type="name" function="0x7fbc30f221a0" astParent="0x7fbc30f25d00"/>
+    <token id="0x7fbc30f25d00" file="../src/comunicacion.h" linenr="286" column="25" str="(" scope="0x7fbc30f23300" link="0x7fbc30f26380" astOperand1="0x7fbc30f25c30" astOperand2="0x7fbc30f26040" valueType-type="bool"/>
+    <token id="0x7fbc30f25dd0" file="../src/comunicacion.h" linenr="286" column="26" str="void" scope="0x7fbc30f23300" type="name" astParent="0x7fbc30f25ea0"/>
+    <token id="0x7fbc30f25ea0" file="../src/comunicacion.h" linenr="286" column="30" str="*" scope="0x7fbc30f23300" type="op" isArithmeticalOp="True" astParent="0x7fbc30f26040" astOperand1="0x7fbc30f25dd0" astOperand2="0x7fbc30f25f70"/>
+    <token id="0x7fbc30f25f70" file="../src/comunicacion.h" linenr="286" column="32" str="buffer" scope="0x7fbc30f23300" type="name" varId="13" variable="0x7fbc30f268f0" astParent="0x7fbc30f25ea0" valueType-type="void" valueType-pointer="1"/>
+    <token id="0x7fbc30f26040" file="../src/comunicacion.h" linenr="286" column="38" str="," scope="0x7fbc30f23300" astParent="0x7fbc30f25d00" astOperand1="0x7fbc30f25ea0" astOperand2="0x7fbc30f262b0"/>
+    <token id="0x7fbc30f26110" file="../src/comunicacion.h" linenr="286" column="40" str="const" scope="0x7fbc30f23300" type="name"/>
+    <token id="0x7fbc30f261e0" file="../src/comunicacion.h" linenr="286" column="46" str="long" scope="0x7fbc30f23300" type="name" isUnsigned="true" originalName="size_t"/>
+    <token id="0x7fbc30f262b0" file="../src/comunicacion.h" linenr="286" column="53" str="size" scope="0x7fbc30f23300" type="name" varId="14" variable="0x7fbc30f269c0" astParent="0x7fbc30f26040" valueType-type="long" valueType-sign="unsigned" valueType-constness="1" valueType-originalTypeName="size_t"/>
+    <token id="0x7fbc30f26380" file="../src/comunicacion.h" linenr="286" column="57" str=")" scope="0x7fbc30f23300" link="0x7fbc30f25d00"/>
+    <token id="0x7fbc30f26450" file="../src/comunicacion.h" linenr="286" column="58" str=";" scope="0x7fbc30f23300"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fbc30f23300" type="Global">
+      <functionList>
+        <function id="0x7fbc30f21e60" tokenDef="0x7fbc30f23530" name="decoder" type="Function"/>
+        <function id="0x7fbc30f21f00" tokenDef="0x7fbc30f23a10" name="encoder" type="Function">
+          <arg nr="1" variable="0x7fbc30f22280"/>
+          <arg nr="2" variable="0x7fbc30f22350"/>
+          <arg nr="3" variable="0x7fbc30f22420"/>
+        </function>
+        <function id="0x7fbc30f21fe0" tokenDef="0x7fbc30f244a0" name="checksumGenerator" type="Function">
+          <arg nr="1" variable="0x7fbc30f224f0"/>
+          <arg nr="2" variable="0x7fbc30f225c0"/>
+          <arg nr="3" variable="0x7fbc30f22690"/>
+        </function>
+        <function id="0x7fbc30f220c0" tokenDef="0x7fbc30f24f30" name="checksumValidator" type="Function">
+          <arg nr="1" variable="0x7fbc30f265b0"/>
+          <arg nr="2" variable="0x7fbc30f26680"/>
+          <arg nr="3" variable="0x7fbc30f26750"/>
+          <arg nr="4" variable="0x7fbc30f26820"/>
+        </function>
+        <function id="0x7fbc30f221a0" tokenDef="0x7fbc30f25c30" name="UART5_Write_Mio" type="Function">
+          <arg nr="1" variable="0x7fbc30f268f0"/>
+          <arg nr="2" variable="0x7fbc30f269c0"/>
+        </function>
+      </functionList>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fbc30f22280" nameToken="0x7fbc30f23c80" typeStartToken="0x7fbc30f23bb0" typeEndToken="0x7fbc30f23bb0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f22350" nameToken="0x7fbc30f23ef0" typeStartToken="0x7fbc30f23e20" typeEndToken="0x7fbc30f23e20" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f22420" nameToken="0x7fbc30f24160" typeStartToken="0x7fbc30f24090" typeEndToken="0x7fbc30f24090" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f224f0" nameToken="0x7fbc30f24710" typeStartToken="0x7fbc30f24640" typeEndToken="0x7fbc30f24640" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f225c0" nameToken="0x7fbc30f24980" typeStartToken="0x7fbc30f248b0" typeEndToken="0x7fbc30f248b0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f22690" nameToken="0x7fbc30f24bf0" typeStartToken="0x7fbc30f24b20" typeEndToken="0x7fbc30f24b20" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f265b0" nameToken="0x7fbc30f251a0" typeStartToken="0x7fbc30f250d0" typeEndToken="0x7fbc30f250d0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f26680" nameToken="0x7fbc30f25410" typeStartToken="0x7fbc30f25340" typeEndToken="0x7fbc30f25340" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f26750" nameToken="0x7fbc30f25680" typeStartToken="0x7fbc30f255b0" typeEndToken="0x7fbc30f255b0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f26820" nameToken="0x7fbc30f258f0" typeStartToken="0x7fbc30f25820" typeEndToken="0x7fbc30f25820" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f268f0" nameToken="0x7fbc30f25f70" typeStartToken="0x7fbc30f25dd0" typeEndToken="0x7fbc30f25ea0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f269c0" nameToken="0x7fbc30f262b0" typeStartToken="0x7fbc30f261e0" typeEndToken="0x7fbc30f261e0" access="Argument" scope="0x0" constness="1" isArgument="true" isArray="false" isClass="false" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

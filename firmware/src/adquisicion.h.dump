@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="../src/adquisicion.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="2" column="1" str="/** Descriptive File Namexx  @Companyx    Company Namexx  @File Namex    filename.hxx  @Summaryx    Brief description of the file.xx  @Descriptionx    Describe the purpose of this file.x */"/>
+    <tok fileIndex="0" linenr="16" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="18" column="1" str="//#ifndef _EXAMPLE_FILE_NAME_H    /* Guard against multiple inclusion */"/>
+    <tok fileIndex="0" linenr="19" column="1" str="//#define _EXAMPLE_FILE_NAME_H"/>
+    <tok fileIndex="0" linenr="22" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="23" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="24" column="1" str="/* Section: Included Files                                                    */"/>
+    <tok fileIndex="0" linenr="25" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="26" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="28" column="1" str="#"/>
+    <tok fileIndex="0" linenr="28" column="2" str="include"/>
+    <tok fileIndex="0" linenr="28" column="10" str="&lt;stdbool.h&gt;"/>
+    <tok fileIndex="0" linenr="30" column="1" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="31" column="1" str="#"/>
+    <tok fileIndex="0" linenr="31" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="31" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="32" column="1" str="extern"/>
+    <tok fileIndex="0" linenr="32" column="8" str="&quot;C&quot;"/>
+    <tok fileIndex="0" linenr="32" column="12" str="{"/>
+    <tok fileIndex="0" linenr="33" column="1" str="#"/>
+    <tok fileIndex="0" linenr="33" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="36" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="37" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="38" column="5" str="/* Section: Constants                                                         */"/>
+    <tok fileIndex="0" linenr="39" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="40" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="42" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="47" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="48" column="5" str="/** Descriptive Constant Namexx      @Summaryx        Brief one-line summary of the constant.x    x      @Descriptionx        Full description, explaining the purpose and usage of the constant.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.x    x      @Remarksx        Any additional remarksx     */"/>
+    <tok fileIndex="0" linenr="64" column="1" str="//#define EXAMPLE_CONSTANT 0"/>
+    <tok fileIndex="0" linenr="67" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="68" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="69" column="5" str="// Section: Data Types"/>
+    <tok fileIndex="0" linenr="70" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="71" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="73" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="78" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="80" column="5" str="/** Descriptive Data Type Namexx      @Summaryx        Brief one-line summary of the data type.x    x      @Descriptionx        Full description, explaining the purpose and usage of the data type.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Remarksx        Any additional remarksx        &lt;p&gt;x        Describe enumeration elements and structure and union members above each x        element or member.x     */"/>
+    <tok fileIndex="0" linenr="99" column="1" str="//    typedef struct _example_struct_t {"/>
+    <tok fileIndex="0" linenr="100" column="1" str="//        /* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="101" column="1" str="//        int some_number;"/>
+    <tok fileIndex="0" linenr="102" column="1" str="//"/>
+    <tok fileIndex="0" linenr="103" column="1" str="//        /* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="104" column="1" str="//        bool some_flag;"/>
+    <tok fileIndex="0" linenr="105" column="1" str="//"/>
+    <tok fileIndex="0" linenr="106" column="1" str="//    } example_struct_t;"/>
+    <tok fileIndex="0" linenr="108" column="5" str="typedef"/>
+    <tok fileIndex="0" linenr="108" column="13" str="enum"/>
+    <tok fileIndex="0" linenr="109" column="5" str="{"/>
+    <tok fileIndex="0" linenr="110" column="9" str="AN0"/>
+    <tok fileIndex="0" linenr="110" column="13" str="="/>
+    <tok fileIndex="0" linenr="110" column="15" str="0"/>
+    <tok fileIndex="0" linenr="110" column="16" str=","/>
+    <tok fileIndex="0" linenr="111" column="9" str="AN1"/>
+    <tok fileIndex="0" linenr="111" column="12" str=","/>
+    <tok fileIndex="0" linenr="112" column="9" str="SHUNT_INY3"/>
+    <tok fileIndex="0" linenr="112" column="19" str=","/>
+    <tok fileIndex="0" linenr="113" column="9" str="SHUNT_INY2"/>
+    <tok fileIndex="0" linenr="113" column="19" str=","/>
+    <tok fileIndex="0" linenr="114" column="9" str="SHUNT_INY1"/>
+    <tok fileIndex="0" linenr="114" column="19" str=","/>
+    <tok fileIndex="0" linenr="115" column="9" str="AN5"/>
+    <tok fileIndex="0" linenr="115" column="12" str=","/>
+    <tok fileIndex="0" linenr="116" column="9" str="SHUNT_INY4"/>
+    <tok fileIndex="0" linenr="116" column="19" str=","/>
+    <tok fileIndex="0" linenr="117" column="9" str="AN7"/>
+    <tok fileIndex="0" linenr="117" column="12" str=","/>
+    <tok fileIndex="0" linenr="118" column="9" str="AN8"/>
+    <tok fileIndex="0" linenr="118" column="12" str=","/>
+    <tok fileIndex="0" linenr="119" column="9" str="PRESION_GNC"/>
+    <tok fileIndex="0" linenr="119" column="20" str=","/>
+    <tok fileIndex="0" linenr="119" column="25" str="//GENERICO_AN3,"/>
+    <tok fileIndex="0" linenr="120" column="9" str="AGUA"/>
+    <tok fileIndex="0" linenr="120" column="13" str=","/>
+    <tok fileIndex="0" linenr="120" column="25" str="//GENERICO_AN1,"/>
+    <tok fileIndex="0" linenr="121" column="9" str="KNOCK"/>
+    <tok fileIndex="0" linenr="121" column="14" str=","/>
+    <tok fileIndex="0" linenr="121" column="25" str="//GENERICO_AN2,"/>
+    <tok fileIndex="0" linenr="122" column="9" str="MAP"/>
+    <tok fileIndex="0" linenr="122" column="12" str=","/>
+    <tok fileIndex="0" linenr="123" column="9" str="TEMP_ESCAPE"/>
+    <tok fileIndex="0" linenr="123" column="20" str=","/>
+    <tok fileIndex="0" linenr="124" column="9" str="PP2"/>
+    <tok fileIndex="0" linenr="124" column="12" str=","/>
+    <tok fileIndex="0" linenr="125" column="9" str="PP1"/>
+    <tok fileIndex="0" linenr="125" column="12" str=","/>
+    <tok fileIndex="0" linenr="126" column="5" str="}"/>
+    <tok fileIndex="0" linenr="126" column="6" str="SENSOR"/>
+    <tok fileIndex="0" linenr="126" column="12" str=";"/>
+    <tok fileIndex="0" linenr="128" column="5" str="typedef"/>
+    <tok fileIndex="0" linenr="128" column="13" str="struct"/>
+    <tok fileIndex="0" linenr="129" column="5" str="{"/>
+    <tok fileIndex="0" linenr="130" column="9" str="SENSOR"/>
+    <tok fileIndex="0" linenr="130" column="16" str="canal"/>
+    <tok fileIndex="0" linenr="130" column="21" str=";"/>
+    <tok fileIndex="0" linenr="131" column="5" str="}"/>
+    <tok fileIndex="0" linenr="131" column="6" str="ANALOGICO"/>
+    <tok fileIndex="0" linenr="131" column="15" str=";"/>
+    <tok fileIndex="0" linenr="134" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="135" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="136" column="5" str="// Section: Interface Functions"/>
+    <tok fileIndex="0" linenr="137" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="138" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="140" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="144" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="145" column="5" str="/**x      @Functionx        int ExampleFunctionName ( int param1, int param2 ) xx      @Summaryx        Brief one-line description of the function.xx      @Descriptionx        Full description, explaining the purpose and usage of the function.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="188" column="1" str="//    int ExampleFunction(int param1, int param2);"/>
+    <tok fileIndex="0" linenr="189" column="5" str="//SENSORES LENTOS"/>
+    <tok fileIndex="0" linenr="190" column="5" str="//CONMUTADOR            DIGITAL INPUT"/>
+    <tok fileIndex="0" linenr="191" column="5" str="//PULSO DE INYECCION    INT3"/>
+    <tok fileIndex="0" linenr="192" column="5" str="//TEMP DE ESCAPE        AN"/>
+    <tok fileIndex="0" linenr="193" column="5" str="//MAP                   AN"/>
+    <tok fileIndex="0" linenr="194" column="5" str="//CAUDALIMETRO          INT1"/>
+    <tok fileIndex="0" linenr="195" column="5" str="//ANALOGICO1            AN  ALGUNO DE ESTOS ES PARA KNOCK"/>
+    <tok fileIndex="0" linenr="196" column="5" str="//ANALOGICO2            AN"/>
+    <tok fileIndex="0" linenr="197" column="5" str="//ANALOGICO3            AN"/>
+    <tok fileIndex="0" linenr="199" column="5" str="//SENSORES CRITICOS"/>
+    <tok fileIndex="0" linenr="200" column="5" str="//CKP                   INT0"/>
+    <tok fileIndex="0" linenr="201" column="5" str="//CMP                   INT2"/>
+    <tok fileIndex="0" linenr="202" column="5" str="//POSICION PEDAL 1      AN"/>
+    <tok fileIndex="0" linenr="203" column="5" str="//POSICION PEDAL 2      AN"/>
+    <tok fileIndex="0" linenr="205" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="205" column="10" str="estadoConmutador"/>
+    <tok fileIndex="0" linenr="205" column="26" str="("/>
+    <tok fileIndex="0" linenr="205" column="27" str="void"/>
+    <tok fileIndex="0" linenr="205" column="31" str=")"/>
+    <tok fileIndex="0" linenr="205" column="32" str=";"/>
+    <tok fileIndex="0" linenr="206" column="5" str="unsigned"/>
+    <tok fileIndex="0" linenr="206" column="14" str="int"/>
+    <tok fileIndex="0" linenr="206" column="18" str="pulsoInyeccion"/>
+    <tok fileIndex="0" linenr="206" column="32" str="("/>
+    <tok fileIndex="0" linenr="206" column="33" str="void"/>
+    <tok fileIndex="0" linenr="206" column="37" str=")"/>
+    <tok fileIndex="0" linenr="206" column="38" str=";"/>
+    <tok fileIndex="0" linenr="207" column="5" str="unsigned"/>
+    <tok fileIndex="0" linenr="207" column="14" str="int"/>
+    <tok fileIndex="0" linenr="207" column="18" str="caudalimetro"/>
+    <tok fileIndex="0" linenr="207" column="30" str="("/>
+    <tok fileIndex="0" linenr="207" column="31" str="void"/>
+    <tok fileIndex="0" linenr="207" column="35" str=")"/>
+    <tok fileIndex="0" linenr="207" column="36" str=";"/>
+    <tok fileIndex="0" linenr="208" column="5" str="unsigned"/>
+    <tok fileIndex="0" linenr="208" column="14" str="int"/>
+    <tok fileIndex="0" linenr="208" column="18" str="adquirirAnalogico"/>
+    <tok fileIndex="0" linenr="208" column="35" str="("/>
+    <tok fileIndex="0" linenr="208" column="36" str="SENSOR"/>
+    <tok fileIndex="0" linenr="208" column="43" str="an"/>
+    <tok fileIndex="0" linenr="208" column="45" str=")"/>
+    <tok fileIndex="0" linenr="208" column="46" str=";"/>
+    <tok fileIndex="0" linenr="209" column="5" str="void"/>
+    <tok fileIndex="0" linenr="209" column="10" str="ckpAdquisicion"/>
+    <tok fileIndex="0" linenr="209" column="24" str="("/>
+    <tok fileIndex="0" linenr="209" column="25" str="void"/>
+    <tok fileIndex="0" linenr="209" column="29" str=")"/>
+    <tok fileIndex="0" linenr="209" column="30" str=";"/>
+    <tok fileIndex="0" linenr="210" column="5" str="void"/>
+    <tok fileIndex="0" linenr="210" column="10" str="cmpAdquisicion"/>
+    <tok fileIndex="0" linenr="210" column="24" str="("/>
+    <tok fileIndex="0" linenr="210" column="25" str="void"/>
+    <tok fileIndex="0" linenr="210" column="29" str=")"/>
+    <tok fileIndex="0" linenr="210" column="30" str=";"/>
+    <tok fileIndex="0" linenr="211" column="5" str="/**x      @Functionx        void ckpAdquisicion(void) xx      @Summaryx        Llamado desde la interrupcion de INT0xx      @Descriptionx        Procesa el periodo entre pulsos para promediar RPM y detectar el espaciox        de referencia del cigxexal.x        &lt;p&gt;x        x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="254" column="5" str="void"/>
+    <tok fileIndex="0" linenr="254" column="10" str="cmpAdquisicion"/>
+    <tok fileIndex="0" linenr="254" column="24" str="("/>
+    <tok fileIndex="0" linenr="254" column="25" str="void"/>
+    <tok fileIndex="0" linenr="254" column="29" str=")"/>
+    <tok fileIndex="0" linenr="254" column="30" str=";"/>
+    <tok fileIndex="0" linenr="255" column="5" str="void"/>
+    <tok fileIndex="0" linenr="255" column="10" str="ckpAdquisicionPrevia"/>
+    <tok fileIndex="0" linenr="255" column="30" str="("/>
+    <tok fileIndex="0" linenr="255" column="31" str="void"/>
+    <tok fileIndex="0" linenr="255" column="35" str=")"/>
+    <tok fileIndex="0" linenr="255" column="36" str=";"/>
+    <tok fileIndex="0" linenr="257" column="5" str="void"/>
+    <tok fileIndex="0" linenr="257" column="10" str="ckpRelativeAngle"/>
+    <tok fileIndex="0" linenr="257" column="26" str="("/>
+    <tok fileIndex="0" linenr="257" column="27" str="int"/>
+    <tok fileIndex="0" linenr="257" column="31" str="angle"/>
+    <tok fileIndex="0" linenr="257" column="36" str=")"/>
+    <tok fileIndex="0" linenr="257" column="37" str=";"/>
+    <tok fileIndex="0" linenr="258" column="5" str="void"/>
+    <tok fileIndex="0" linenr="258" column="10" str="cmpRelativeAngle"/>
+    <tok fileIndex="0" linenr="258" column="26" str="("/>
+    <tok fileIndex="0" linenr="258" column="27" str="int"/>
+    <tok fileIndex="0" linenr="258" column="31" str="angle"/>
+    <tok fileIndex="0" linenr="258" column="36" str=")"/>
+    <tok fileIndex="0" linenr="258" column="37" str=";"/>
+    <tok fileIndex="0" linenr="260" column="5" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="261" column="1" str="#"/>
+    <tok fileIndex="0" linenr="261" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="261" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="262" column="1" str="}"/>
+    <tok fileIndex="0" linenr="263" column="1" str="#"/>
+    <tok fileIndex="0" linenr="263" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="265" column="1" str="//#endif /* _EXAMPLE_FILE_NAME_H */"/>
+    <tok fileIndex="0" linenr="267" column="1" str="/* *****************************************************************************x End of Filex */"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="../src/adquisicion.h" linenr="28" str="#include &lt;stdbool.h&gt;"/>
+    <directive file="../src/adquisicion.h" linenr="31" str="#ifdef __cplusplus"/>
+    <directive file="../src/adquisicion.h" linenr="33" str="#endif"/>
+    <directive file="../src/adquisicion.h" linenr="261" str="#ifdef __cplusplus"/>
+    <directive file="../src/adquisicion.h" linenr="263" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fbc30f22340" file="../src/adquisicion.h" linenr="108" column="13" str="enum" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30e054e0" file="../src/adquisicion.h" linenr="108" column="0" str="SENSOR" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f224e0" file="../src/adquisicion.h" linenr="109" column="5" str="{" scope="0x7fbc30e05af0" link="0x7fbc30f28da0"/>
+    <token id="0x7fbc30f225b0" file="../src/adquisicion.h" linenr="110" column="9" str="AN0" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f22680"/>
+    <token id="0x7fbc30f22680" file="../src/adquisicion.h" linenr="110" column="13" str="=" scope="0x7fbc30e05af0" type="op" isAssignmentOp="True" astParent="0x7fbc30f27470" astOperand1="0x7fbc30f225b0" astOperand2="0x7fbc30f226d0"/>
+    <token id="0x7fbc30f226d0" file="../src/adquisicion.h" linenr="110" column="15" str="0" scope="0x7fbc30e05af0" type="number" isInt="True" values="0x7fbc30e059c0" astParent="0x7fbc30f22680" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f27470" file="../src/adquisicion.h" linenr="110" column="16" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27610" astOperand1="0x7fbc30f22680" astOperand2="0x7fbc30f27540"/>
+    <token id="0x7fbc30f27540" file="../src/adquisicion.h" linenr="111" column="9" str="AN1" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27470"/>
+    <token id="0x7fbc30f27610" file="../src/adquisicion.h" linenr="111" column="12" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f277b0" astOperand1="0x7fbc30f27470" astOperand2="0x7fbc30f276e0"/>
+    <token id="0x7fbc30f276e0" file="../src/adquisicion.h" linenr="112" column="9" str="SHUNT_INY3" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27610"/>
+    <token id="0x7fbc30f277b0" file="../src/adquisicion.h" linenr="112" column="19" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27950" astOperand1="0x7fbc30f27610" astOperand2="0x7fbc30f27880"/>
+    <token id="0x7fbc30f27880" file="../src/adquisicion.h" linenr="113" column="9" str="SHUNT_INY2" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f277b0"/>
+    <token id="0x7fbc30f27950" file="../src/adquisicion.h" linenr="113" column="19" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27af0" astOperand1="0x7fbc30f277b0" astOperand2="0x7fbc30f27a20"/>
+    <token id="0x7fbc30f27a20" file="../src/adquisicion.h" linenr="114" column="9" str="SHUNT_INY1" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27950"/>
+    <token id="0x7fbc30f27af0" file="../src/adquisicion.h" linenr="114" column="19" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27c90" astOperand1="0x7fbc30f27950" astOperand2="0x7fbc30f27bc0"/>
+    <token id="0x7fbc30f27bc0" file="../src/adquisicion.h" linenr="115" column="9" str="AN5" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27af0"/>
+    <token id="0x7fbc30f27c90" file="../src/adquisicion.h" linenr="115" column="12" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27e30" astOperand1="0x7fbc30f27af0" astOperand2="0x7fbc30f27d60"/>
+    <token id="0x7fbc30f27d60" file="../src/adquisicion.h" linenr="116" column="9" str="SHUNT_INY4" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27c90"/>
+    <token id="0x7fbc30f27e30" file="../src/adquisicion.h" linenr="116" column="19" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f27fd0" astOperand1="0x7fbc30f27c90" astOperand2="0x7fbc30f27f00"/>
+    <token id="0x7fbc30f27f00" file="../src/adquisicion.h" linenr="117" column="9" str="AN7" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27e30"/>
+    <token id="0x7fbc30f27fd0" file="../src/adquisicion.h" linenr="117" column="12" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f28170" astOperand1="0x7fbc30f27e30" astOperand2="0x7fbc30f280a0"/>
+    <token id="0x7fbc30f280a0" file="../src/adquisicion.h" linenr="118" column="9" str="AN8" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f27fd0"/>
+    <token id="0x7fbc30f28170" file="../src/adquisicion.h" linenr="118" column="12" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f28310" astOperand1="0x7fbc30f27fd0" astOperand2="0x7fbc30f28240"/>
+    <token id="0x7fbc30f28240" file="../src/adquisicion.h" linenr="119" column="9" str="PRESION_GNC" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f28170"/>
+    <token id="0x7fbc30f28310" file="../src/adquisicion.h" linenr="119" column="20" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f284b0" astOperand1="0x7fbc30f28170" astOperand2="0x7fbc30f283e0"/>
+    <token id="0x7fbc30f283e0" file="../src/adquisicion.h" linenr="120" column="9" str="AGUA" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f28310"/>
+    <token id="0x7fbc30f284b0" file="../src/adquisicion.h" linenr="120" column="13" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f28650" astOperand1="0x7fbc30f28310" astOperand2="0x7fbc30f28580"/>
+    <token id="0x7fbc30f28580" file="../src/adquisicion.h" linenr="121" column="9" str="KNOCK" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f284b0"/>
+    <token id="0x7fbc30f28650" file="../src/adquisicion.h" linenr="121" column="14" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f287f0" astOperand1="0x7fbc30f284b0" astOperand2="0x7fbc30f28720"/>
+    <token id="0x7fbc30f28720" file="../src/adquisicion.h" linenr="122" column="9" str="MAP" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f28650"/>
+    <token id="0x7fbc30f287f0" file="../src/adquisicion.h" linenr="122" column="12" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f28990" astOperand1="0x7fbc30f28650" astOperand2="0x7fbc30f288c0"/>
+    <token id="0x7fbc30f288c0" file="../src/adquisicion.h" linenr="123" column="9" str="TEMP_ESCAPE" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f287f0"/>
+    <token id="0x7fbc30f28990" file="../src/adquisicion.h" linenr="123" column="20" str="," scope="0x7fbc30e05af0" astParent="0x7fbc30f28b30" astOperand1="0x7fbc30f287f0" astOperand2="0x7fbc30f28a60"/>
+    <token id="0x7fbc30f28a60" file="../src/adquisicion.h" linenr="124" column="9" str="PP2" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f28990"/>
+    <token id="0x7fbc30f28b30" file="../src/adquisicion.h" linenr="124" column="12" str="," scope="0x7fbc30e05af0" astOperand1="0x7fbc30f28990" astOperand2="0x7fbc30f28c00"/>
+    <token id="0x7fbc30f28c00" file="../src/adquisicion.h" linenr="125" column="9" str="PP1" scope="0x7fbc30e05af0" type="name" astParent="0x7fbc30f28b30"/>
+    <token id="0x7fbc30f28cd0" file="../src/adquisicion.h" linenr="125" column="12" str="," scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f28da0" file="../src/adquisicion.h" linenr="126" column="5" str="}" scope="0x7fbc30e05af0" link="0x7fbc30f224e0"/>
+    <token id="0x7fbc30e055d0" file="../src/adquisicion.h" linenr="126" column="0" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30e056a0" file="../src/adquisicion.h" linenr="128" column="13" str="struct" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30e05770" file="../src/adquisicion.h" linenr="128" column="0" str="ANALOGICO" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f291b0" file="../src/adquisicion.h" linenr="129" column="5" str="{" scope="0x7fbc30e05af0" link="0x7fbc30f294f0"/>
+    <token id="0x7fbc30f29280" file="../src/adquisicion.h" linenr="130" column="9" str="SENSOR" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f29350" file="../src/adquisicion.h" linenr="130" column="16" str="canal" scope="0x7fbc30e05af0" type="name" varId="1"/>
+    <token id="0x7fbc30f29420" file="../src/adquisicion.h" linenr="130" column="21" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f294f0" file="../src/adquisicion.h" linenr="131" column="5" str="}" scope="0x7fbc30e05af0" link="0x7fbc30f291b0"/>
+    <token id="0x7fbc30e057c0" file="../src/adquisicion.h" linenr="131" column="0" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f29760" file="../src/adquisicion.h" linenr="205" column="5" str="bool" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f29830" file="../src/adquisicion.h" linenr="205" column="10" str="estadoConmutador" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e05c20" astParent="0x7fbc30f29900"/>
+    <token id="0x7fbc30f29900" file="../src/adquisicion.h" linenr="205" column="26" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f29aa0" astOperand1="0x7fbc30f29830" valueType-type="bool"/>
+    <token id="0x7fbc30f29aa0" file="../src/adquisicion.h" linenr="205" column="31" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f29900"/>
+    <token id="0x7fbc30f29b70" file="../src/adquisicion.h" linenr="205" column="32" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f29c40" file="../src/adquisicion.h" linenr="206" column="14" str="int" scope="0x7fbc30e05af0" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f29de0" file="../src/adquisicion.h" linenr="206" column="18" str="pulsoInyeccion" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e05cc0" astParent="0x7fbc30f29eb0"/>
+    <token id="0x7fbc30f29eb0" file="../src/adquisicion.h" linenr="206" column="32" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2a050" astOperand1="0x7fbc30f29de0" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f2a050" file="../src/adquisicion.h" linenr="206" column="37" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f29eb0"/>
+    <token id="0x7fbc30f2a120" file="../src/adquisicion.h" linenr="206" column="38" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2a1f0" file="../src/adquisicion.h" linenr="207" column="14" str="int" scope="0x7fbc30e05af0" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f2a390" file="../src/adquisicion.h" linenr="207" column="18" str="caudalimetro" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e05da0" astParent="0x7fbc30f2a460"/>
+    <token id="0x7fbc30f2a460" file="../src/adquisicion.h" linenr="207" column="30" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2a600" astOperand1="0x7fbc30f2a390" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f2a600" file="../src/adquisicion.h" linenr="207" column="35" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2a460"/>
+    <token id="0x7fbc30f2a6d0" file="../src/adquisicion.h" linenr="207" column="36" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2a7a0" file="../src/adquisicion.h" linenr="208" column="14" str="int" scope="0x7fbc30e05af0" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f2a940" file="../src/adquisicion.h" linenr="208" column="18" str="adquirirAnalogico" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e05e80" astParent="0x7fbc30f2aa10"/>
+    <token id="0x7fbc30f2aa10" file="../src/adquisicion.h" linenr="208" column="35" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2ac80" astOperand1="0x7fbc30f2a940" astOperand2="0x7fbc30f2abb0" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f2aae0" file="../src/adquisicion.h" linenr="208" column="36" str="SENSOR" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2abb0" file="../src/adquisicion.h" linenr="208" column="43" str="an" scope="0x7fbc30e05af0" type="name" varId="2" variable="0x7fbc30e0f2c0" astParent="0x7fbc30f2aa10"/>
+    <token id="0x7fbc30f2ac80" file="../src/adquisicion.h" linenr="208" column="45" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2aa10"/>
+    <token id="0x7fbc30f2ad50" file="../src/adquisicion.h" linenr="208" column="46" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2ae20" file="../src/adquisicion.h" linenr="209" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2aef0" file="../src/adquisicion.h" linenr="209" column="10" str="ckpAdquisicion" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e05f60" astParent="0x7fbc30f2afc0"/>
+    <token id="0x7fbc30f2afc0" file="../src/adquisicion.h" linenr="209" column="24" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2b160" astOperand1="0x7fbc30f2aef0" valueType-type="void"/>
+    <token id="0x7fbc30f2b160" file="../src/adquisicion.h" linenr="209" column="29" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2afc0"/>
+    <token id="0x7fbc30f2b230" file="../src/adquisicion.h" linenr="209" column="30" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2b300" file="../src/adquisicion.h" linenr="210" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2b3d0" file="../src/adquisicion.h" linenr="210" column="10" str="cmpAdquisicion" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e0ef80" astParent="0x7fbc30f2b4a0"/>
+    <token id="0x7fbc30f2b4a0" file="../src/adquisicion.h" linenr="210" column="24" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2b640" astOperand1="0x7fbc30f2b3d0" valueType-type="void"/>
+    <token id="0x7fbc30f2b640" file="../src/adquisicion.h" linenr="210" column="29" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2b4a0"/>
+    <token id="0x7fbc30f2b710" file="../src/adquisicion.h" linenr="210" column="30" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2b7e0" file="../src/adquisicion.h" linenr="254" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2b8b0" file="../src/adquisicion.h" linenr="254" column="10" str="cmpAdquisicion" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e0ef80" astParent="0x7fbc30f2b980"/>
+    <token id="0x7fbc30f2b980" file="../src/adquisicion.h" linenr="254" column="24" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2bb20" astOperand1="0x7fbc30f2b8b0" valueType-type="void"/>
+    <token id="0x7fbc30f2bb20" file="../src/adquisicion.h" linenr="254" column="29" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2b980"/>
+    <token id="0x7fbc30f2bbf0" file="../src/adquisicion.h" linenr="254" column="30" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2bcc0" file="../src/adquisicion.h" linenr="255" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2bd90" file="../src/adquisicion.h" linenr="255" column="10" str="ckpAdquisicionPrevia" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e0f020" astParent="0x7fbc30f2be60"/>
+    <token id="0x7fbc30f2be60" file="../src/adquisicion.h" linenr="255" column="30" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2c000" astOperand1="0x7fbc30f2bd90" valueType-type="void"/>
+    <token id="0x7fbc30f2c000" file="../src/adquisicion.h" linenr="255" column="35" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2be60"/>
+    <token id="0x7fbc30f2c0d0" file="../src/adquisicion.h" linenr="255" column="36" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2c1a0" file="../src/adquisicion.h" linenr="257" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2c270" file="../src/adquisicion.h" linenr="257" column="10" str="ckpRelativeAngle" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e0f100" astParent="0x7fbc30f2c340"/>
+    <token id="0x7fbc30f2c340" file="../src/adquisicion.h" linenr="257" column="26" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2c5b0" astOperand1="0x7fbc30f2c270" astOperand2="0x7fbc30f2c4e0" valueType-type="void"/>
+    <token id="0x7fbc30f2c410" file="../src/adquisicion.h" linenr="257" column="27" str="int" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2c4e0" file="../src/adquisicion.h" linenr="257" column="31" str="angle" scope="0x7fbc30e05af0" type="name" varId="3" variable="0x7fbc30e0f390" astParent="0x7fbc30f2c340" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f2c5b0" file="../src/adquisicion.h" linenr="257" column="36" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2c340"/>
+    <token id="0x7fbc30f2c680" file="../src/adquisicion.h" linenr="257" column="37" str=";" scope="0x7fbc30e05af0"/>
+    <token id="0x7fbc30f2c750" file="../src/adquisicion.h" linenr="258" column="5" str="void" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2c820" file="../src/adquisicion.h" linenr="258" column="10" str="cmpRelativeAngle" scope="0x7fbc30e05af0" type="name" function="0x7fbc30e0f1e0" astParent="0x7fbc30f2c8f0"/>
+    <token id="0x7fbc30f2c8f0" file="../src/adquisicion.h" linenr="258" column="26" str="(" scope="0x7fbc30e05af0" link="0x7fbc30f2cb60" astOperand1="0x7fbc30f2c820" astOperand2="0x7fbc30f2ca90" valueType-type="void"/>
+    <token id="0x7fbc30f2c9c0" file="../src/adquisicion.h" linenr="258" column="27" str="int" scope="0x7fbc30e05af0" type="name"/>
+    <token id="0x7fbc30f2ca90" file="../src/adquisicion.h" linenr="258" column="31" str="angle" scope="0x7fbc30e05af0" type="name" varId="4" variable="0x7fbc30e0f460" astParent="0x7fbc30f2c8f0" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f2cb60" file="../src/adquisicion.h" linenr="258" column="36" str=")" scope="0x7fbc30e05af0" link="0x7fbc30f2c8f0"/>
+    <token id="0x7fbc30f2cc30" file="../src/adquisicion.h" linenr="258" column="37" str=";" scope="0x7fbc30e05af0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fbc30e05af0" type="Global">
+      <functionList>
+        <function id="0x7fbc30e05c20" tokenDef="0x7fbc30f29830" name="estadoConmutador" type="Function"/>
+        <function id="0x7fbc30e05cc0" tokenDef="0x7fbc30f29de0" name="pulsoInyeccion" type="Function"/>
+        <function id="0x7fbc30e05da0" tokenDef="0x7fbc30f2a390" name="caudalimetro" type="Function"/>
+        <function id="0x7fbc30e05e80" tokenDef="0x7fbc30f2a940" name="adquirirAnalogico" type="Function">
+          <arg nr="1" variable="0x7fbc30e0f2c0"/>
+        </function>
+        <function id="0x7fbc30e05f60" tokenDef="0x7fbc30f2aef0" name="ckpAdquisicion" type="Function"/>
+        <function id="0x7fbc30e0ef80" tokenDef="0x7fbc30f2b3d0" name="cmpAdquisicion" type="Function"/>
+        <function id="0x7fbc30e0f020" tokenDef="0x7fbc30f2bd90" name="ckpAdquisicionPrevia" type="Function"/>
+        <function id="0x7fbc30e0f100" tokenDef="0x7fbc30f2c270" name="ckpRelativeAngle" type="Function">
+          <arg nr="1" variable="0x7fbc30e0f390"/>
+        </function>
+        <function id="0x7fbc30e0f1e0" tokenDef="0x7fbc30f2c820" name="cmpRelativeAngle" type="Function">
+          <arg nr="1" variable="0x7fbc30e0f460"/>
+        </function>
+      </functionList>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fbc30e0f2c0" nameToken="0x7fbc30f2abb0" typeStartToken="0x7fbc30f2aae0" typeEndToken="0x7fbc30f2aae0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30e0f390" nameToken="0x7fbc30f2c4e0" typeStartToken="0x7fbc30f2c410" typeEndToken="0x7fbc30f2c410" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30e0f460" nameToken="0x7fbc30f2ca90" typeStartToken="0x7fbc30f2c9c0" typeEndToken="0x7fbc30f2c9c0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7fbc30e059c0">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,14 @@
+configName: default
+folderName: SOM
+format_version: v1.0
+frameworkPath: /Users/marcelo
+processor: PIC32MX795F512L
+projectName: SOM
+settings:
+  PackageFilter: core;x2c;bsp;quick_docs;usb;csp;core_apps_pic32mx;csp_apps_pic32mx
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/PIC32MX_DFP/1.5.259/atdf/PIC32MX795F512L.atdf

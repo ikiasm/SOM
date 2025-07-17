@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="../src/generacion.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="2" column="1" str="/** Descriptive File Namexx  @Companyx    Company Namexx  @File Namex    filename.hxx  @Summaryx    Brief description of the file.xx  @Descriptionx    Describe the purpose of this file.x */"/>
+    <tok fileIndex="0" linenr="16" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="18" column="1" str="#"/>
+    <tok fileIndex="0" linenr="18" column="2" str="ifndef"/>
+    <tok fileIndex="0" linenr="18" column="9" str="_EXAMPLE_FILE_NAME_H"/>
+    <tok fileIndex="0" linenr="18" column="33" str="/* Guard against multiple inclusion */"/>
+    <tok fileIndex="0" linenr="19" column="1" str="#"/>
+    <tok fileIndex="0" linenr="19" column="2" str="define"/>
+    <tok fileIndex="0" linenr="19" column="9" str="_EXAMPLE_FILE_NAME_H"/>
+    <tok fileIndex="0" linenr="22" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="23" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="24" column="1" str="/* Section: Included Files                                                    */"/>
+    <tok fileIndex="0" linenr="25" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="26" column="1" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="28" column="1" str="#"/>
+    <tok fileIndex="0" linenr="28" column="2" str="include"/>
+    <tok fileIndex="0" linenr="28" column="10" str="&lt;stdint.h&gt;"/>
+    <tok fileIndex="0" linenr="30" column="1" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="31" column="1" str="#"/>
+    <tok fileIndex="0" linenr="31" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="31" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="32" column="1" str="extern"/>
+    <tok fileIndex="0" linenr="32" column="8" str="&quot;C&quot;"/>
+    <tok fileIndex="0" linenr="32" column="12" str="{"/>
+    <tok fileIndex="0" linenr="33" column="1" str="#"/>
+    <tok fileIndex="0" linenr="33" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="36" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="37" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="38" column="5" str="/* Section: Constants                                                         */"/>
+    <tok fileIndex="0" linenr="39" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="40" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="42" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="47" column="5" str="/* ************************************************************************** */"/>
+    <tok fileIndex="0" linenr="48" column="5" str="/** Descriptive Constant Namexx      @Summaryx        Brief one-line summary of the constant.x    x      @Descriptionx        Full description, explaining the purpose and usage of the constant.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.x    x      @Remarksx        Any additional remarksx     */"/>
+    <tok fileIndex="0" linenr="64" column="1" str="//#define EXAMPLE_CONSTANT 0"/>
+    <tok fileIndex="0" linenr="67" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="68" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="69" column="5" str="// Section: Data Types"/>
+    <tok fileIndex="0" linenr="70" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="71" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="73" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="78" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="80" column="5" str="/** Descriptive Data Type Namexx      @Summaryx        Brief one-line summary of the data type.x    x      @Descriptionx        Full description, explaining the purpose and usage of the data type.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Remarksx        Any additional remarksx        &lt;p&gt;x        Describe enumeration elements and structure and union members above each x        element or member.x     */"/>
+    <tok fileIndex="0" linenr="99" column="1" str="//    typedef struct _example_struct_t {"/>
+    <tok fileIndex="0" linenr="100" column="1" str="//        /* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="101" column="1" str="//        int some_number;"/>
+    <tok fileIndex="0" linenr="102" column="1" str="//"/>
+    <tok fileIndex="0" linenr="103" column="1" str="//        /* Describe structure member. */"/>
+    <tok fileIndex="0" linenr="104" column="1" str="//        bool some_flag;"/>
+    <tok fileIndex="0" linenr="105" column="1" str="//"/>
+    <tok fileIndex="0" linenr="106" column="1" str="//    } example_struct_t;"/>
+    <tok fileIndex="0" linenr="107" column="1" str="//"/>
+    <tok fileIndex="0" linenr="109" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="110" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="111" column="5" str="// Section: Interface Functions"/>
+    <tok fileIndex="0" linenr="112" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="113" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="115" column="5" str="/*  A brief description of a section can be given directly below the sectionx        banner.x     */"/>
+    <tok fileIndex="0" linenr="119" column="5" str="// *****************************************************************************"/>
+    <tok fileIndex="0" linenr="120" column="5" str="/**x      @Functionx        int ExampleFunctionName ( int param1, int param2 ) xx      @Summaryx        Brief one-line description of the function.xx      @Descriptionx        Full description, explaining the purpose and usage of the function.x        &lt;p&gt;x        Additional description in consecutive paragraphs separated by HTML x        paragraph breaks, as necessary.x        &lt;p&gt;x        Type &quot;JavaDoc&quot; in the &quot;How Do I?&quot; IDE toolbar for more information on tags.xx      @Preconditionx        List and describe any required preconditions. If there are no preconditions,x        enter &quot;None.&quot;xx      @Parametersx        @param param1 Describe the first parameter to the function.x    x        @param param2 Describe the second parameter to the function.xx      @Returnsx        List (if feasible) and describe the return values of the function.x        &lt;ul&gt;x          &lt;li&gt;1   Indicates an error occurredx          &lt;li&gt;0   Indicates an error did not occurx        &lt;/ul&gt;xx      @Remarksx        Describe any special behavior not described above.x        &lt;p&gt;x        Any additional remarks.xx      @Examplex        @codex        if(ExampleFunctionName(1, 2) == 0)x        {x            return 3;x        }x     */"/>
+    <tok fileIndex="0" linenr="163" column="1" str="//    int ExampleFunction(int param1, int param2);"/>
+    <tok fileIndex="0" linenr="166" column="5" str="void"/>
+    <tok fileIndex="0" linenr="166" column="10" str="ckpGeneracion"/>
+    <tok fileIndex="0" linenr="166" column="23" str="("/>
+    <tok fileIndex="0" linenr="166" column="24" str="int"/>
+    <tok fileIndex="0" linenr="166" column="28" str="angle"/>
+    <tok fileIndex="0" linenr="166" column="33" str=")"/>
+    <tok fileIndex="0" linenr="166" column="34" str=";"/>
+    <tok fileIndex="0" linenr="167" column="5" str="void"/>
+    <tok fileIndex="0" linenr="167" column="10" str="cmpGeneracion"/>
+    <tok fileIndex="0" linenr="167" column="23" str="("/>
+    <tok fileIndex="0" linenr="167" column="24" str="int"/>
+    <tok fileIndex="0" linenr="167" column="28" str="angle"/>
+    <tok fileIndex="0" linenr="167" column="33" str=")"/>
+    <tok fileIndex="0" linenr="167" column="34" str=";"/>
+    <tok fileIndex="0" linenr="169" column="5" str="void"/>
+    <tok fileIndex="0" linenr="169" column="10" str="ckpCorreccion"/>
+    <tok fileIndex="0" linenr="169" column="23" str="("/>
+    <tok fileIndex="0" linenr="169" column="24" str="int"/>
+    <tok fileIndex="0" linenr="169" column="28" str="angle"/>
+    <tok fileIndex="0" linenr="169" column="33" str=")"/>
+    <tok fileIndex="0" linenr="169" column="34" str=";"/>
+    <tok fileIndex="0" linenr="170" column="5" str="void"/>
+    <tok fileIndex="0" linenr="170" column="10" str="cmpCorreccion"/>
+    <tok fileIndex="0" linenr="170" column="23" str="("/>
+    <tok fileIndex="0" linenr="170" column="24" str="int"/>
+    <tok fileIndex="0" linenr="170" column="28" str="angle"/>
+    <tok fileIndex="0" linenr="170" column="33" str=")"/>
+    <tok fileIndex="0" linenr="170" column="34" str=";"/>
+    <tok fileIndex="0" linenr="172" column="5" str="void"/>
+    <tok fileIndex="0" linenr="172" column="10" str="write_PPA"/>
+    <tok fileIndex="0" linenr="172" column="19" str="("/>
+    <tok fileIndex="0" linenr="172" column="20" str="void"/>
+    <tok fileIndex="0" linenr="172" column="24" str=")"/>
+    <tok fileIndex="0" linenr="172" column="25" str=";"/>
+    <tok fileIndex="0" linenr="174" column="5" str="void"/>
+    <tok fileIndex="0" linenr="174" column="10" str="PPA_SetPercent"/>
+    <tok fileIndex="0" linenr="174" column="24" str="("/>
+    <tok fileIndex="0" linenr="174" column="25" str="unsigned"/>
+    <tok fileIndex="0" linenr="174" column="34" str="int"/>
+    <tok fileIndex="0" linenr="174" column="38" str="percent"/>
+    <tok fileIndex="0" linenr="174" column="45" str=")"/>
+    <tok fileIndex="0" linenr="174" column="46" str=";"/>
+    <tok fileIndex="0" linenr="175" column="5" str="void"/>
+    <tok fileIndex="0" linenr="175" column="10" str="writePP1"/>
+    <tok fileIndex="0" linenr="175" column="18" str="("/>
+    <tok fileIndex="0" linenr="175" column="19" str="unsigned"/>
+    <tok fileIndex="0" linenr="175" column="28" str="int"/>
+    <tok fileIndex="0" linenr="175" column="32" str="volt_mV"/>
+    <tok fileIndex="0" linenr="175" column="39" str=")"/>
+    <tok fileIndex="0" linenr="175" column="40" str=";"/>
+    <tok fileIndex="0" linenr="176" column="5" str="void"/>
+    <tok fileIndex="0" linenr="176" column="10" str="writePP2"/>
+    <tok fileIndex="0" linenr="176" column="18" str="("/>
+    <tok fileIndex="0" linenr="176" column="19" str="unsigned"/>
+    <tok fileIndex="0" linenr="176" column="28" str="int"/>
+    <tok fileIndex="0" linenr="176" column="32" str="volt_mV"/>
+    <tok fileIndex="0" linenr="176" column="39" str=")"/>
+    <tok fileIndex="0" linenr="176" column="40" str=";"/>
+    <tok fileIndex="0" linenr="177" column="5" str="/* Provide C++ Compatibility */"/>
+    <tok fileIndex="0" linenr="178" column="1" str="#"/>
+    <tok fileIndex="0" linenr="178" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="178" column="8" str="__cplusplus"/>
+    <tok fileIndex="0" linenr="179" column="1" str="}"/>
+    <tok fileIndex="0" linenr="180" column="1" str="#"/>
+    <tok fileIndex="0" linenr="180" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="182" column="1" str="#"/>
+    <tok fileIndex="0" linenr="182" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="182" column="8" str="/* _EXAMPLE_FILE_NAME_H */"/>
+    <tok fileIndex="0" linenr="184" column="1" str="/* ***************************************************************************** End of File */"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="../src/generacion.h" linenr="18" str="#ifndef _EXAMPLE_FILE_NAME_H"/>
+    <directive file="../src/generacion.h" linenr="19" str="#define _EXAMPLE_FILE_NAME_H"/>
+    <directive file="../src/generacion.h" linenr="28" str="#include &lt;stdint.h&gt;"/>
+    <directive file="../src/generacion.h" linenr="31" str="#ifdef __cplusplus"/>
+    <directive file="../src/generacion.h" linenr="33" str="#endif"/>
+    <directive file="../src/generacion.h" linenr="178" str="#ifdef __cplusplus"/>
+    <directive file="../src/generacion.h" linenr="180" str="#endif"/>
+    <directive file="../src/generacion.h" linenr="182" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fbc30f26f10" file="../src/generacion.h" linenr="166" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f2a7e0" file="../src/generacion.h" linenr="166" column="10" str="ckpGeneracion" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f62f30" astParent="0x7fbc30f5f2b0"/>
+    <token id="0x7fbc30f5f2b0" file="../src/generacion.h" linenr="166" column="23" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f23520" astOperand1="0x7fbc30f2a7e0" astOperand2="0x7fbc30f23450" valueType-type="void"/>
+    <token id="0x7fbc30f2b140" file="../src/generacion.h" linenr="166" column="24" str="int" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f23450" file="../src/generacion.h" linenr="166" column="28" str="angle" scope="0x7fbc30f5ea00" type="name" varId="1" variable="0x7fbc30f5f070" astParent="0x7fbc30f5f2b0" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f23520" file="../src/generacion.h" linenr="166" column="33" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f5f2b0"/>
+    <token id="0x7fbc30f3c100" file="../src/generacion.h" linenr="166" column="34" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f3c150" file="../src/generacion.h" linenr="167" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f61c40" file="../src/generacion.h" linenr="167" column="10" str="cmpGeneracion" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f628b0" astParent="0x7fbc30f22d60"/>
+    <token id="0x7fbc30f22d60" file="../src/generacion.h" linenr="167" column="23" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f235b0" astOperand1="0x7fbc30f61c40" astOperand2="0x7fbc30f33e80" valueType-type="void"/>
+    <token id="0x7fbc30f33db0" file="../src/generacion.h" linenr="167" column="24" str="int" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f33e80" file="../src/generacion.h" linenr="167" column="28" str="angle" scope="0x7fbc30f5ea00" type="name" varId="2" variable="0x7fbc30f5f140" astParent="0x7fbc30f22d60" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f235b0" file="../src/generacion.h" linenr="167" column="33" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f22d60"/>
+    <token id="0x7fbc30f23680" file="../src/generacion.h" linenr="167" column="34" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f227a0" file="../src/generacion.h" linenr="169" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f22870" file="../src/generacion.h" linenr="169" column="10" str="ckpCorreccion" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5eb30" astParent="0x7fbc30f09e10"/>
+    <token id="0x7fbc30f09e10" file="../src/generacion.h" linenr="169" column="23" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f2a200" astOperand1="0x7fbc30f22870" astOperand2="0x7fbc30f2a130" valueType-type="void"/>
+    <token id="0x7fbc30f09ee0" file="../src/generacion.h" linenr="169" column="24" str="int" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f2a130" file="../src/generacion.h" linenr="169" column="28" str="angle" scope="0x7fbc30f5ea00" type="name" varId="3" variable="0x7fbc30f5f210" astParent="0x7fbc30f09e10" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f2a200" file="../src/generacion.h" linenr="169" column="33" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f09e10"/>
+    <token id="0x7fbc30f2a2d0" file="../src/generacion.h" linenr="169" column="34" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f67ee0" file="../src/generacion.h" linenr="170" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f67fb0" file="../src/generacion.h" linenr="170" column="10" str="cmpCorreccion" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5ec10" astParent="0x7fbc30f68080"/>
+    <token id="0x7fbc30f68080" file="../src/generacion.h" linenr="170" column="23" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f61f60" astOperand1="0x7fbc30f67fb0" astOperand2="0x7fbc30f61e90" valueType-type="void"/>
+    <token id="0x7fbc30f61dc0" file="../src/generacion.h" linenr="170" column="24" str="int" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f61e90" file="../src/generacion.h" linenr="170" column="28" str="angle" scope="0x7fbc30f5ea00" type="name" varId="4" variable="0x7fbc30f26210" astParent="0x7fbc30f68080" valueType-type="int" valueType-sign="signed"/>
+    <token id="0x7fbc30f61f60" file="../src/generacion.h" linenr="170" column="33" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f68080"/>
+    <token id="0x7fbc30f62030" file="../src/generacion.h" linenr="170" column="34" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f62100" file="../src/generacion.h" linenr="172" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f621d0" file="../src/generacion.h" linenr="172" column="10" str="write_PPA" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5ecf0" astParent="0x7fbc30f622a0"/>
+    <token id="0x7fbc30f622a0" file="../src/generacion.h" linenr="172" column="19" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f62440" astOperand1="0x7fbc30f621d0" valueType-type="void"/>
+    <token id="0x7fbc30f62440" file="../src/generacion.h" linenr="172" column="24" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f622a0"/>
+    <token id="0x7fbc30f62510" file="../src/generacion.h" linenr="172" column="25" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f625e0" file="../src/generacion.h" linenr="174" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f626b0" file="../src/generacion.h" linenr="174" column="10" str="PPA_SetPercent" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5edd0" astParent="0x7fbc30f62780"/>
+    <token id="0x7fbc30f62780" file="../src/generacion.h" linenr="174" column="24" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f62ac0" astOperand1="0x7fbc30f626b0" astOperand2="0x7fbc30f629f0" valueType-type="void"/>
+    <token id="0x7fbc30f62850" file="../src/generacion.h" linenr="174" column="34" str="int" scope="0x7fbc30f5ea00" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f629f0" file="../src/generacion.h" linenr="174" column="38" str="percent" scope="0x7fbc30f5ea00" type="name" varId="5" variable="0x7fbc30f262e0" astParent="0x7fbc30f62780" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f62ac0" file="../src/generacion.h" linenr="174" column="45" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f62780"/>
+    <token id="0x7fbc30f62b90" file="../src/generacion.h" linenr="174" column="46" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f62c60" file="../src/generacion.h" linenr="175" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f62d30" file="../src/generacion.h" linenr="175" column="10" str="writePP1" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5eeb0" astParent="0x7fbc30f62e00"/>
+    <token id="0x7fbc30f62e00" file="../src/generacion.h" linenr="175" column="18" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f63140" astOperand1="0x7fbc30f62d30" astOperand2="0x7fbc30f63070" valueType-type="void"/>
+    <token id="0x7fbc30f62ed0" file="../src/generacion.h" linenr="175" column="28" str="int" scope="0x7fbc30f5ea00" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f63070" file="../src/generacion.h" linenr="175" column="32" str="volt_mV" scope="0x7fbc30f5ea00" type="name" varId="6" variable="0x7fbc30f263b0" astParent="0x7fbc30f62e00" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f63140" file="../src/generacion.h" linenr="175" column="39" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f62e00"/>
+    <token id="0x7fbc30f63210" file="../src/generacion.h" linenr="175" column="40" str=";" scope="0x7fbc30f5ea00"/>
+    <token id="0x7fbc30f632e0" file="../src/generacion.h" linenr="176" column="5" str="void" scope="0x7fbc30f5ea00" type="name"/>
+    <token id="0x7fbc30f633b0" file="../src/generacion.h" linenr="176" column="10" str="writePP2" scope="0x7fbc30f5ea00" type="name" function="0x7fbc30f5ef90" astParent="0x7fbc30f63480"/>
+    <token id="0x7fbc30f63480" file="../src/generacion.h" linenr="176" column="18" str="(" scope="0x7fbc30f5ea00" link="0x7fbc30f637c0" astOperand1="0x7fbc30f633b0" astOperand2="0x7fbc30f636f0" valueType-type="void"/>
+    <token id="0x7fbc30f63550" file="../src/generacion.h" linenr="176" column="28" str="int" scope="0x7fbc30f5ea00" type="name" isUnsigned="true"/>
+    <token id="0x7fbc30f636f0" file="../src/generacion.h" linenr="176" column="32" str="volt_mV" scope="0x7fbc30f5ea00" type="name" varId="7" variable="0x7fbc30f26480" astParent="0x7fbc30f63480" valueType-type="int" valueType-sign="unsigned"/>
+    <token id="0x7fbc30f637c0" file="../src/generacion.h" linenr="176" column="39" str=")" scope="0x7fbc30f5ea00" link="0x7fbc30f63480"/>
+    <token id="0x7fbc30f63890" file="../src/generacion.h" linenr="176" column="40" str=";" scope="0x7fbc30f5ea00"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fbc30f5ea00" type="Global">
+      <functionList>
+        <function id="0x7fbc30f62f30" tokenDef="0x7fbc30f2a7e0" name="ckpGeneracion" type="Function">
+          <arg nr="1" variable="0x7fbc30f5f070"/>
+        </function>
+        <function id="0x7fbc30f628b0" tokenDef="0x7fbc30f61c40" name="cmpGeneracion" type="Function">
+          <arg nr="1" variable="0x7fbc30f5f140"/>
+        </function>
+        <function id="0x7fbc30f5eb30" tokenDef="0x7fbc30f22870" name="ckpCorreccion" type="Function">
+          <arg nr="1" variable="0x7fbc30f5f210"/>
+        </function>
+        <function id="0x7fbc30f5ec10" tokenDef="0x7fbc30f67fb0" name="cmpCorreccion" type="Function">
+          <arg nr="1" variable="0x7fbc30f26210"/>
+        </function>
+        <function id="0x7fbc30f5ecf0" tokenDef="0x7fbc30f621d0" name="write_PPA" type="Function"/>
+        <function id="0x7fbc30f5edd0" tokenDef="0x7fbc30f626b0" name="PPA_SetPercent" type="Function">
+          <arg nr="1" variable="0x7fbc30f262e0"/>
+        </function>
+        <function id="0x7fbc30f5eeb0" tokenDef="0x7fbc30f62d30" name="writePP1" type="Function">
+          <arg nr="1" variable="0x7fbc30f263b0"/>
+        </function>
+        <function id="0x7fbc30f5ef90" tokenDef="0x7fbc30f633b0" name="writePP2" type="Function">
+          <arg nr="1" variable="0x7fbc30f26480"/>
+        </function>
+      </functionList>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fbc30f26210" nameToken="0x7fbc30f61e90" typeStartToken="0x7fbc30f61dc0" typeEndToken="0x7fbc30f61dc0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f262e0" nameToken="0x7fbc30f629f0" typeStartToken="0x7fbc30f62850" typeEndToken="0x7fbc30f62850" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f263b0" nameToken="0x7fbc30f63070" typeStartToken="0x7fbc30f62ed0" typeEndToken="0x7fbc30f62ed0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f26480" nameToken="0x7fbc30f636f0" typeStartToken="0x7fbc30f63550" typeEndToken="0x7fbc30f63550" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f5f070" nameToken="0x7fbc30f23450" typeStartToken="0x7fbc30f2b140" typeEndToken="0x7fbc30f2b140" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f5f140" nameToken="0x7fbc30f33e80" typeStartToken="0x7fbc30f33db0" typeEndToken="0x7fbc30f33db0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fbc30f5f210" nameToken="0x7fbc30f2a130" typeStartToken="0x7fbc30f09ee0" typeEndToken="0x7fbc30f09ee0" access="Argument" scope="0x0" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

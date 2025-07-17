@@ -1,0 +1,53 @@
+# Archivos y carpetas de compilación
+build/
+dist/
+debug/
+production/
+tmp/
+output/
+
+# MPLAB X project private config
+**/nbproject/private/
+
+# Archivos generados por Harmony configurator
+**/config/default/device/
+**/config/default/library/
+**/config/default/peripheral/
+**/config/default/system/
+**/config/default/framework/
+
+# Archivos intermedios de Harmony
+**/*.orig
+**/*.bak
+**/*.tmp
+**/*.d
+**/*.o
+**/*.a
+**/*.hex
+**/*.elf
+**/*.map
+**/*.bin
+**/*.sdb
+
+# Archivos del entorno
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# Archivos generados por el Harmony Framework
+firmware/src/system_config/
+firmware/src/system_init.c
+firmware/src/system_interrupt.c
+firmware/src/system_tasks.c
+
+# Harmony auto-generated folders (edit cautiously)
+**/system/
+**/peripheral/
+**/bsp/
+**/osal/
+**/driver/
+**/devcon/
+
+# Harmony metadata (opcional: subir solo si necesario)
+# **/harmony.xml

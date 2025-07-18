@@ -200,16 +200,16 @@ void encoder(uint8_t ch, uint8_t id, uint8_t status,  uint16_t dato, uint16_t ad
 void decoder(void)
 {
 
-    UINT16 aux;
-    UINT8 cmd = receiveBuffer[0];
-    UINT8 ch = receiveBuffer[1];
-    UINT8 id = receiveBuffer[2];    
-    UINT8 b3 = receiveBuffer[3];
+    uint16_t aux;
+    uint8_t cmd = receiveBuffer[0];
+    uint8_t ch = receiveBuffer[1];
+    uint8_t id = receiveBuffer[2];    
+    uint8_t b3 = receiveBuffer[3];
     uint16_t dato = receiveBuffer[4] * 0x100;
     dato = dato + receiveBuffer[5];
-    UINT16 address = receiveBuffer[6] * 0x100;
+    uint16_t address = receiveBuffer[6] * 0x100;
     address = address + receiveBuffer[7];
-    UINT16 checksum = receiveBuffer[8] * 0x100;
+    uint16_t checksum = receiveBuffer[8] * 0x100;
     checksum = checksum + receiveBuffer[9];
     
     if(cmd)
@@ -275,10 +275,10 @@ void resetReceiveBuffer(void)   //OK CONTROLADO
     }
 }
 
-UINT16 checksumGenerator(UINT8 cmd, UINT8 ch, UINT8 id, UINT8 b3, UINT16 dato, UINT16 address)
+uint16_t checksumGenerator(uint8_t cmd, uint8_t ch, uint8_t id, uint8_t b3, uint16_t dato, uint16_t address)
 {
-    UINT16 result;
-    UINT16 carry;
+    uint16_t result;
+    uint16_t carry;
     unsigned int parcial;
     unsigned int word0;
     unsigned int word1;
@@ -312,7 +312,7 @@ UINT16 checksumGenerator(UINT8 cmd, UINT8 ch, UINT8 id, UINT8 b3, UINT16 dato, U
 }
 
 
-bool checksumValidator(UINT8 cmd, UINT8 ch, UINT8 id, UINT8 b3, uint16_t dato, uint16_t address, uint16_t checksum)
+bool checksumValidator(uint8_t cmd, uint8_t ch, uint8_t id, uint8_t b3, uint16_t dato, uint16_t address, uint16_t checksum)
 {
     bool result;
     uint32_t parcial;

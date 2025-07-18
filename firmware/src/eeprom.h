@@ -36,7 +36,7 @@
 
 #include "globales.h"
 
-#include "config/32mxSom/peripheral/gpio/plib_gpio.h"
+#include "config/32mxSom/peripheral/gpio/plib_gpio.h"   
 
 /* Provide C++ Compatibility */
 #ifdef __cplusplus

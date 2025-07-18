@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -50,11 +50,11 @@
 #include <stdbool.h>
 #include "peripheral/i2c/master/plib_i2c2_master.h"
 #include "peripheral/tmr/plib_tmr4.h"
-#include "peripheral/uart/plib_uart2.h"
 #include "peripheral/tmr/plib_tmr5.h"
+#include "peripheral/uart/plib_uart2.h"
 #include "peripheral/tmr/plib_tmr2.h"
-#include "peripheral/tmr/plib_tmr3.h"
 #include "peripheral/spi/spi_master/plib_spi3_master.h"
+#include "peripheral/tmr/plib_tmr3.h"
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
@@ -69,8 +69,14 @@ extern "C" {
 #endif
 // DOM-IGNORE-END
 
+/* Device Information */
+#define DEVICE_NAME          "PIC32MX795F512L"
+#define DEVICE_ARCH          "MIPS"
+#define DEVICE_FAMILY        "PIC32MX1156"
+#define DEVICE_SERIES        "PIC32MX"
+
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 80000000
+#define CPU_CLOCK_FREQUENCY 80000000U
 
 // *****************************************************************************
 // *****************************************************************************

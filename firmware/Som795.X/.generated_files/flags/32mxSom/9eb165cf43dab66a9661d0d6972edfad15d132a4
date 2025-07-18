@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/32mxSom" -I"../src/packs/PIC32MX795F512L_DFP" -Wall   -DXPRJ_32mxSom=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  /Users/marcelosaiki/MPLABXProjects/SOM/firmware/src/config/32mxSom/initialization.c

@@ -1,0 +1,127 @@
+configVersion: 1.0.0
+componentName: i2c2
+coreVersion: 5.8.2
+device: PIC32MX795F512L
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: i2c2
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.5
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: i2c2
+          x: '326'
+          y: '271'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    BRG_VALUE:
+      attributes:
+        id: BRG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '393'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_CORE_TIMER_FREQUENCY:
+      attributes:
+        id: I2CS_CORE_TIMER_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '40000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_RISE_TIME_CORE_TIMER_CNTS:
+      attributes:
+        id: I2CS_RISE_TIME_CORE_TIMER_CNTS
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '12'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_SETUP_TIME_CORE_TIMER_CNTS:
+      attributes:
+        id: I2CS_SETUP_TIME_CORE_TIMER_CNTS
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2C_CLOCK_FREQ:
+      attributes:
+        id: I2C_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '80000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2C_CLOCK_SPEED:
+      attributes:
+        id: I2C_CLOCK_SPEED
+      children:
+      - children:
+        - attributes:
+            value: '100000'
+          type: User
+        type: Values
+      type: Long
+    I2C_CLOCK_SPEED_HZ:
+      attributes:
+        id: I2C_CLOCK_SPEED_HZ
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: '100000'
+          type: Dynamic
+        type: Values
+      type: Long
+    I2C_INCLUDE_FORCED_WRITE_API:
+      attributes:
+        id: I2C_INCLUDE_FORCED_WRITE_API
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    I2C_SIDL:
+      attributes:
+        id: I2C_SIDL
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

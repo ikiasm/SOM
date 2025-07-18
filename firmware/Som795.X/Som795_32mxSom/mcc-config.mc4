@@ -1,0 +1,100 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+spaHostVersion: 1.0.0
+device: PIC32MX795F512L
+deviceLibrary:
+  className: null
+groupModules: []
+modules:
+- adc
+- core
+- dfp
+- i2c2
+- spi3
+- tmr2
+- tmr3
+- tmr4
+- tmr5
+- uart2
+- uart5
+generatedFileHashHistoryMap:
+- file: ../src/config/32mxSom/definitions.h
+  hash: 0f30d87f808ca4ff22e9cea8e1a1242ccf8a77d77919091b3c7fb40a41d83482
+- file: ../src/config/32mxSom/device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ../src/config/32mxSom/exceptions.c
+  hash: 265c985839caadb2fa9e8fc76e7bc3c160e31e9b2c96dc4006add33e5d7ee212
+- file: ../src/config/32mxSom/initialization.c
+  hash: cbc74dff4bab1eadb33c9204c826fc0805361d53e8d968ecc5c1cda6ea6fd930
+- file: ../src/config/32mxSom/interrupts.c
+  hash: 9c8a8bc5328e03d2c4f0711700043e27f5716ce9e91e3e9d1e603d86cd263483
+- file: ../src/config/32mxSom/interrupts.h
+  hash: 1d48abec3983a92f38ad9067683f1746eb30ea045205f9c99b70aa6efff867ef
+- file: ../src/config/32mxSom/p32MX795F512L.ld
+  hash: 89fc5aa4d5f2061d3a5608f4779c6c2743053e5c571025736c53d5ea1ffadef4
+- file: ../src/config/32mxSom/peripheral/adc/plib_adc.c
+  hash: 040258f39e34897f333bef696c23616df2ba8a24a7bf5327d861077d9a054062
+- file: ../src/config/32mxSom/peripheral/adc/plib_adc.h
+  hash: b37db9d3aab57fe9de55294f7a0441ccb56f2fa4b56271ea17a7ed6ac3692bb0
+- file: ../src/config/32mxSom/peripheral/clk/plib_clk.c
+  hash: 8aa2e862bc4cd5eda4ad78d8b08142efcb089478f42106a2e1cb52b32b0dc768
+- file: ../src/config/32mxSom/peripheral/clk/plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ../src/config/32mxSom/peripheral/evic/plib_evic.c
+  hash: 9e61a14c4dcf40114e9b3b1746e968324a9ce558029421eb148e265c606699bb
+- file: ../src/config/32mxSom/peripheral/evic/plib_evic.h
+  hash: a2c96cbd3aee2715d4f641c5995eed5087a4aca52211c68d3de33c2894cc3f32
+- file: ../src/config/32mxSom/peripheral/gpio/plib_gpio.c
+  hash: dd0d733f5770c80ad6afcec1ac0f97bad9c504eefa5e4ae2a196e0bf360a8ccc
+- file: ../src/config/32mxSom/peripheral/gpio/plib_gpio.h
+  hash: 4ce82cd73cf8c53f941538dfd679a626c6367784289792f5516e4e1d2caf6374
+- file: ../src/config/32mxSom/peripheral/i2c/master/plib_i2c2_master.c
+  hash: ec73dc3c69a7f8663c577eb62d0a0a064f8ca4d3df2cfedaded07aed32cdc94d
+- file: ../src/config/32mxSom/peripheral/i2c/master/plib_i2c2_master.h
+  hash: d5c176a81955a8156e8142eb0d77b5875b9f215e12449fb219b9fb9826d32e25
+- file: ../src/config/32mxSom/peripheral/i2c/master/plib_i2c_master_common.h
+  hash: 1888013e2cef69a47c7a44bfef9a4de4b9580af719aa9896ac112551a64c9515
+- file: ../src/config/32mxSom/peripheral/i2c/plib_i2c_smbus_common.c
+  hash: 026121a1d5fae1028604b3031f89253ed36f588d037beb3722351261ce514dd2
+- file: ../src/config/32mxSom/peripheral/i2c/plib_i2c_smbus_common.h
+  hash: 585f8d40c9fcaa072abdf3039cbc4b26ee3fbcb902171dd7e79a682e3973f995
+- file: ../src/config/32mxSom/peripheral/spi/spi_master/plib_spi3_master.c
+  hash: df5260badb975ec6e74d8c5d0fe526384d49147241aeb332b5d4742b43e5d854
+- file: ../src/config/32mxSom/peripheral/spi/spi_master/plib_spi3_master.h
+  hash: 76f15ff685371d173538226082bed33a65cc974f10c0d8a51aa92ac683e68915
+- file: ../src/config/32mxSom/peripheral/spi/spi_master/plib_spi_master_common.h
+  hash: 844a71566e886cd1f28024000d440ac48841cdb4f4059f5feefac8e4334f12ef
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr2.c
+  hash: 377200a3c13339cbe489f2e8f8bacf542e7ff59e56bcee933c0cc97f0b3e3419
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr2.h
+  hash: 1956a5d2c31e9fd9c345b2c639336db3614afb6c51fc0d961e2f3f80527fc8c5
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr3.c
+  hash: 34c3626cf77d06671b3a5656a736e29f8e70282d537f99d24df0a08b35875135
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr3.h
+  hash: 4507242db0aee1ed83c74dddf264a72e19bf85cf44d8339302e0e8c87030779c
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr4.c
+  hash: 7b2380af64c2d068384212fb51163a2503e89f7a8785e66549196be6209f6b7d
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr4.h
+  hash: 90b1d1ac633847a8f64b15ff5e259c142ef9dd1ea59933d5951089a2eed95f3f
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr5.c
+  hash: a50747496748bb3b87467e3b9fa3db7b8d8e8377945ab270df417a42c4138393
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr5.h
+  hash: d1861be7d184b270f8c3be1fcd96f4da707527df0c4b149c3f7869517e46f9ef
+- file: ../src/config/32mxSom/peripheral/tmr/plib_tmr_common.h
+  hash: fe0f7e886eba99992a90f718b6aa9f2b438b8204094495f72a0d1e83418d3187
+- file: ../src/config/32mxSom/peripheral/uart/plib_uart2.c
+  hash: 4f968e2e2664fa07d95c90fb3fc7c86e6114a61af33a4789d9a5ba354a2e9b56
+- file: ../src/config/32mxSom/peripheral/uart/plib_uart2.h
+  hash: e94fdf082db840525a513ed2d5a645c13d565dd2ea78642a11e5c303f5b48f29
+- file: ../src/config/32mxSom/peripheral/uart/plib_uart5.c
+  hash: 1e57be4040864d1b554ad875ca9ae012a788d831ff01b911fbebb212f1f7f441
+- file: ../src/config/32mxSom/peripheral/uart/plib_uart5.h
+  hash: 623449802c6d6074f7345d8a1da0a1099c25431a14a35bfc510371c2ae562fdd
+- file: ../src/config/32mxSom/peripheral/uart/plib_uart_common.h
+  hash: b87295faadae4157d5880e22970f89094f2b51e1866930040a90ba49c6b29797
+- file: ../src/config/32mxSom/stdio/xc32_monitor.c
+  hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
+- file: ../src/config/32mxSom/toolchain_specifics.h
+  hash: b4de6e02e3e48c62f7ba233405ffdf6ef31bb971d1a7b49efa1676f45cabc1ac
+- file: ../src/main.c
+  hash: null

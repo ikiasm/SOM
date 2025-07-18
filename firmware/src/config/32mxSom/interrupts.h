@@ -16,7 +16,7 @@
 
 // DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -50,11 +50,23 @@
 #include <stdint.h>
 
 
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Handler Routines
 // *****************************************************************************
 // *****************************************************************************
+void EXTERNAL_0_InterruptHandler( void );
+void TIMER_2_InterruptHandler( void );
+void EXTERNAL_2_InterruptHandler( void );
+void TIMER_3_InterruptHandler( void );
+void TIMER_4_InterruptHandler( void );
+void TIMER_5_InterruptHandler( void );
+void SPI_3_InterruptHandler( void );
+void ADC_InterruptHandler( void );
+void UART_2_InterruptHandler( void );
+void I2C_2_InterruptHandler( void );
+void UART_5_InterruptHandler( void );
 
 
 

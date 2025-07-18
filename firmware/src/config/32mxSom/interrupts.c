@@ -20,7 +20,7 @@
 
 // DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -48,9 +48,9 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
 #include "interrupts.h"
 #include "definitions.h"
+
 
 
 // *****************************************************************************
@@ -60,22 +60,31 @@
 // *****************************************************************************
 
 
-void EXTERNAL_0_InterruptHandler( void );
-void TIMER_2_InterruptHandler( void );
-void EXTERNAL_2_InterruptHandler( void );
-void TIMER_3_InterruptHandler( void );
-void TIMER_4_InterruptHandler( void );
-void TIMER_5_InterruptHandler( void );
-void SPI_3_InterruptHandler( void );
-void ADC_InterruptHandler( void );
-void UART_2_InterruptHandler( void );
-void I2C_2_InterruptHandler( void );
-void UART_5_InterruptHandler( void );
-
-
-
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
-void __ISR(_EXTERNAL_0_VECTOR, ipl5SOFT) EXTERNAL_0_Handler (void)
+// *****************************************************************************
+// *****************************************************************************
+// Section: System Interrupt Vector declarations
+// *****************************************************************************
+// *****************************************************************************
+void EXTERNAL_0_Handler (void);
+void TIMER_2_Handler (void);
+void EXTERNAL_2_Handler (void);
+void TIMER_3_Handler (void);
+void TIMER_4_Handler (void);
+void TIMER_5_Handler (void);
+void SPI_3_Handler (void);
+void ADC_Handler (void);
+void UART_2_Handler (void);
+void I2C_2_Handler (void);
+void UART_5_Handler (void);
+
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: System Interrupt Vector definitions
+// *****************************************************************************
+// *****************************************************************************
+void __attribute__((used)) __ISR(_EXTERNAL_0_VECTOR, ipl5SOFT) EXTERNAL_0_Handler (void)
 {
     //ckpRelativeAngle(0);
     //ckpAdquisicion(); //SAFE Function
@@ -84,28 +93,28 @@ void __ISR(_EXTERNAL_0_VECTOR, ipl5SOFT) EXTERNAL_0_Handler (void)
     EXTERNAL_0_InterruptHandler();
 }
 
-void __ISR(_TIMER_2_VECTOR, ipl1SOFT) TIMER_2_Handler (void)
+void __attribute__((used)) __ISR(_TIMER_2_VECTOR, ipl1SOFT) TIMER_2_Handler (void)
 {
     //Timer period unit= 5us
     ticks();
     TIMER_2_InterruptHandler();
 }
 
-void __ISR(_EXTERNAL_2_VECTOR, ipl5SOFT) EXTERNAL_2_Handler (void)
+void __attribute__((used)) __ISR(_EXTERNAL_2_VECTOR, ipl5SOFT) EXTERNAL_2_Handler (void)
 {
     //CMP
     cmpAdquisicion();   //SAFE Function
     EXTERNAL_2_InterruptHandler();
 }
 
-void __ISR(_TIMER_3_VECTOR, ipl1SOFT) TIMER_3_Handler (void)
+void __attribute__((used)) __ISR(_TIMER_3_VECTOR, ipl1SOFT) TIMER_3_Handler (void)
 {
     //Timer period unit= 44us
     delayPulsoCkp();
     TIMER_3_InterruptHandler();
 }
 
-void __ISR(_TIMER_4_VECTOR, ipl6SOFT) TIMER_4_Handler (void)
+void __attribute__((used)) __ISR(_TIMER_4_VECTOR, ipl6SOFT) TIMER_4_Handler (void)
 {
     //Timer period unit= 5us
     //Destinado como contador de tiempo de pulsos RPM
@@ -114,7 +123,7 @@ void __ISR(_TIMER_4_VECTOR, ipl6SOFT) TIMER_4_Handler (void)
     TIMER_4_InterruptHandler();
 }
 
-void __ISR(_TIMER_5_VECTOR, ipl1SOFT) TIMER_5_Handler (void)
+void __attribute__((used)) __ISR(_TIMER_5_VECTOR, ipl1SOFT) TIMER_5_Handler (void)
 {
     //Timer periodo variable
     //Destinado para PWM de los Inyectores
@@ -122,27 +131,27 @@ void __ISR(_TIMER_5_VECTOR, ipl1SOFT) TIMER_5_Handler (void)
     TIMER_5_InterruptHandler();
 }
 
-void __ISR(_SPI_3_VECTOR, ipl1SOFT) SPI_3_Handler (void)
+void __attribute__((used)) __ISR(_SPI_3_VECTOR, ipl1SOFT) SPI_3_Handler (void)
 {
     SPI_3_InterruptHandler();
 }
 
-void __ISR(_ADC_VECTOR, ipl1SOFT) ADC_Handler (void)
+void __attribute__((used)) __ISR(_ADC_VECTOR, ipl1SOFT) ADC_Handler (void)
 {
     ADC_InterruptHandler();
 }
 
-void __ISR(_UART_2_VECTOR, ipl1SOFT) UART_2_Handler (void)
+void __attribute__((used)) __ISR(_UART_2_VECTOR, ipl1SOFT) UART_2_Handler (void)
 {
     UART_2_InterruptHandler();
 }
 
-void __ISR(_I2C_2_VECTOR, ipl1SOFT) I2C_2_Handler (void)
+void __attribute__((used)) __ISR(_I2C_2_VECTOR, ipl1SOFT) I2C_2_Handler (void)
 {
     I2C_2_InterruptHandler();
 }
 
-void __ISR(_UART_5_VECTOR, ipl1SOFT) UART_5_Handler (void)
+void __attribute__((used)) __ISR(_UART_5_VECTOR, ipl1SOFT) UART_5_Handler (void)
 {
     UART_5_InterruptHandler();
 }

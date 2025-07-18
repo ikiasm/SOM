@@ -31,7 +31,7 @@
 /* TODO:  Include other files here if needed. */
 #include <stdbool.h>
 #include <stdint.h>
-#include <GenericTypeDefs.h>
+//#include <GenericTypeDefs.h>
 #include "config/32mxSom/peripheral/uart/plib_uart_common.h"
 
 
@@ -314,8 +314,8 @@ extern "C" {
     void switcher(int id, int datoH, int datoL);
     
 
-    UINT16 checksumGenerator(UINT8 cmd, UINT8 ch, UINT8 id, UINT8 b3, UINT16 dato, UINT16 address);
-    bool checksumValidator(UINT8 cmd, UINT8 ch, UINT8 id, UINT8 b3, uint16_t dato, uint16_t address, uint16_t checksum);
+    uint16_t checksumGenerator(uint8_t cmd, uint8_t ch, uint8_t id, uint8_t b3, uint16_t dato, uint16_t address);
+    bool checksumValidator(uint8_t cmd, uint8_t ch, uint8_t id, uint8_t b3, uint16_t dato, uint16_t address, uint16_t checksum);
     
     void channelSelector(void);
     void channelSelector_Get(void);

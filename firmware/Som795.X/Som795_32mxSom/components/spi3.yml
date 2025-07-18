@@ -1,0 +1,114 @@
+configVersion: 1.0.0
+componentName: spi3
+coreVersion: 5.8.2
+device: PIC32MX795F512L
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: spi3
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.5
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: spi3
+          x: '329'
+          y: '474'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    SPI_BRG_VALUE:
+      attributes:
+        id: SPI_BRG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: spi3
+            value: '39'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SPI_CLOCK_MODE_COMMENT:
+      attributes:
+        id: SPI_CLOCK_MODE_COMMENT
+      children:
+      - children:
+        - attributes:
+            id: text
+          children:
+          - type: Value
+            value: '***SPI Mode 0 is Selected***'
+          type: String
+        type: Attributes
+      type: Comment
+    SPI_DUMMY_DATA:
+      attributes:
+        id: SPI_DUMMY_DATA
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '255'
+          type: Long
+        type: Attributes
+      - children:
+        - attributes:
+            id: spi3
+            value: '255'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SPI_INTERRUPT_MODE:
+      attributes:
+        id: SPI_INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SPI_SPICON_CLK_PH:
+      attributes:
+        id: SPI_SPICON_CLK_PH
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SPI_SPICON_MODE:
+      attributes:
+        id: SPI_SPICON_MODE
+      children:
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SPI_SPICON_MSSEN:
+      attributes:
+        id: SPI_SPICON_MSSEN
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+  userData: {}

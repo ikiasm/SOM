@@ -1,0 +1,103 @@
+configVersion: 1.0.0
+componentName: tmr2
+coreVersion: 5.8.2
+device: PIC32MX795F512L
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: tmr2
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.5
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: tmr2
+          x: '75'
+          y: '151'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    TIMER_CLOCK_FREQ:
+      attributes:
+        id: TIMER_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: tmr2
+            value: '80000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TIMER_PERIOD:
+      attributes:
+        id: TIMER_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: tmr2
+            value: '399'
+          type: Dynamic
+        type: Values
+      type: Long
+    TIMER_TIME_PERIOD_MS:
+      attributes:
+        id: TIMER_TIME_PERIOD_MS
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '819.2125'
+          type: Float
+        type: Attributes
+      - children:
+        - attributes:
+            value: '5.0'
+          type: User
+        type: Values
+      type: Float
+    TIMER_UNIT:
+      attributes:
+        id: TIMER_UNIT
+      children:
+      - children:
+        - attributes:
+            value: microsecond
+          type: User
+        type: Values
+      type: Combo
+    TMR_INTERRUPT_MODE:
+      attributes:
+        id: TMR_INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            id: tmr2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TMR_SLAVE_INTERRUPT_MODE:
+      attributes:
+        id: TMR_SLAVE_INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            id: tmr2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData: {}
